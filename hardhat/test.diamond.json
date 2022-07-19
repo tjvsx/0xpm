@@ -1,0 +1,68 @@
+{
+  "address": "0x26207B7d2b42d9F4acDf4b91946b5Fb0EF0d5923",
+  "chaindId": 1337,
+  "functionSelectors": {
+    "facetAddress(bytes4)": "Readable",
+    "facetAddresses()": "Readable",
+    "facetFunctionSelectors(address)": "Readable",
+    "facets()": "Readable",
+    "acceptOwnership()": "Ownership",
+    "nomineeOwner()": "Ownership",
+    "owner()": "Ownership",
+    "transferOwnership(address)": "Ownership",
+    "diamondCut((address,uint8,bytes4[])[],address,bytes)": "Writable",
+    "supportsInterface(bytes4)": "Erc165",
+    "install(address,string)": "PackageManager",
+    "uninstall(address)": "PackageManager",
+    "update(address,string,address)": "PackageManager",
+    "getFallbackAddress()": "Xpm",
+    "setFallbackAddress(address)": "Xpm",
+    "commit(string,(address,uint8,bytes4[])[],address,bytes)": "Git",
+    "latest(address,string)": "Git",
+    "model()": "Git",
+    "unsubscribe(address,string)": "Git",
+    "createDiamond((address,uint8,bytes4[])[],address,bytes)": "DiamondFactory"
+  },
+  "contracts": {
+    "Readable": {
+      "name": "Readable",
+      "address": "0xbfc873c3004d784E8bed51Dd9151679cEF34C844",
+      "type": "remote"
+    },
+    "Ownership": {
+      "name": "Ownership",
+      "address": "0x8b3E1f0a6b79d15B7fE1f859af1a0Bd71cD9fA21",
+      "type": "remote"
+    },
+    "Writable": {
+      "name": "Writable",
+      "address": "0x009fF35B5FBdD896f0285020843a6a5C27590988",
+      "type": "remote"
+    },
+    "Erc165": {
+      "name": "Erc165",
+      "address": "0xC35fA2d5ab07320e51d0576b866A977024D3d29c",
+      "type": "remote"
+    },
+    "PackageManager": {
+      "name": "PackageManager",
+      "address": "0xfd8C4738D9B64592eda45Af7b34B7b6e93850733",
+      "type": "remote"
+    },
+    "Xpm": {
+      "name": "Xpm",
+      "address": "0xA90F76CfF1a3bdC62A407DEA268E71c91fd29020",
+      "type": "remote"
+    },
+    "Git": {
+      "name": "Git",
+      "address": "0x6e71084843103c6C118BC3266398e17F33711Fd7",
+      "type": "remote"
+    },
+    "DiamondFactory": {
+      "name": "DiamondFactory",
+      "address": "0xdCBE45db0C335C3d61F72910C0E7FA37e1e7127d",
+      "type": "remote"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SignersSetter",
+  "sourceName": "contracts/_library/habitat/external/StakeContract.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220de67bae8dab870cec590c1751ec0257ce0b3e67ad3702d22f79c5f1de460af9064736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220de67bae8dab870cec590c1751ec0257ce0b3e67ad3702d22f79c5f1de460af9064736f6c634300080c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

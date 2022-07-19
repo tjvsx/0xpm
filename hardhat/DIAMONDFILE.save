@@ -1,0 +1,8 @@
+npx hardhat diamond:deploy --new
+npx hardhat diamond:add --local --name MyToken
+npx hardhat diamond:cut --init-facet MyToken --init-fn initMyToken --init-params "Habitat,HBT,8,0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1"
+npx hardhat diamond:add --local --name VotingPowerFacet --links LibVotingPower
+npx hardhat diamond:add --local --name TreasuryDefaultCallbackHandlerFacet
+npx hardhat diamond:add --local --name TreasuryVotingFacet --links LibVotingPower
+npx hardhat diamond:add --local --name TreasuryViewerFacet
+npx hardhat diamond:cut

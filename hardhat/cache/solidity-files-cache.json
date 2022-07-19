@@ -1,0 +1,4304 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/GovernanceInit.sol": {
+      "lastModificationDate": 1656817611096,
+      "contentHash": "23adb61a48400f09db85250433675f18",
+      "sourceName": "contracts/_library/0xpm/governance/init/GovernanceInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernanceInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableStorage.sol": {
+      "lastModificationDate": 1656817638541,
+      "contentHash": "8d4030cf1f72456002a25402227eca29",
+      "sourceName": "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/storage/GovernanceStorage.sol": {
+      "lastModificationDate": 1657080679510,
+      "contentHash": "9a8bb428b9459c3f16bd3edf291dabcd",
+      "sourceName": "contracts/_library/0xpm/governance/storage/GovernanceStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GovernanceStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/libraries/Library.sol": {
+      "lastModificationDate": 1657159761628,
+      "contentHash": "fa82bebab69c7af5f1ae7668c1e862b8",
+      "sourceName": "contracts/logic/libraries/Library.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+        "../../_library/0xpm/governance/storage/GovernanceStorage.sol",
+        "../../external/Upgrade.sol",
+        "../../storage/GitStorage.sol",
+        "../../external/Installer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Library"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol": {
+      "lastModificationDate": 1656817638530,
+      "contentHash": "819799ff698fbc7a23d8a70b4ba3c040",
+      "sourceName": "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondWritable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol": {
+      "lastModificationDate": 1656817638532,
+      "contentHash": "d74176c4eebea4719e43f00f5b3b5b7f",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../utils/AddressUtils.sol",
+        "../writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondBaseStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Upgrade.sol": {
+      "lastModificationDate": 1656817611099,
+      "contentHash": "d853bc4840aa55360c19ba476163fa29",
+      "sourceName": "contracts/external/Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "./IUpgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Upgrade"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/storage/GitStorage.sol": {
+      "lastModificationDate": 1657422786157,
+      "contentHash": "3684eca880f25da920071e3998258650",
+      "sourceName": "contracts/storage/GitStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/utils/EnumerableSet.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GitStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Installer.sol": {
+      "lastModificationDate": 1656817611100,
+      "contentHash": "d6f9f11cafdf4f1d34bfcd0d8e1105a1",
+      "sourceName": "contracts/external/Installer.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/factory/MinimalProxyFactory.sol",
+        "./Upgrade.sol",
+        "./Uninstaller.sol",
+        "./IInstaller.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Installer"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/AddressUtils.sol": {
+      "lastModificationDate": 1656817638551,
+      "contentHash": "012052926d8dd8003145af65cb55d5a8",
+      "sourceName": "@solidstate/contracts/utils/AddressUtils.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UintUtils.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AddressUtils"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/UintUtils.sol": {
+      "lastModificationDate": 1656817638552,
+      "contentHash": "ec78c5df663acd746494d437321055b2",
+      "sourceName": "@solidstate/contracts/utils/UintUtils.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UintUtils"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IUpgrade.sol": {
+      "lastModificationDate": 1656817611100,
+      "contentHash": "a0f544ba955eaa31975faf27a24e6867",
+      "sourceName": "contracts/external/IUpgrade.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUpgrade"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1656817638551,
+      "contentHash": "f09219a7ba37757b20acb5f1ec047042",
+      "sourceName": "@solidstate/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/factory/MinimalProxyFactory.sol": {
+      "lastModificationDate": 1656817638554,
+      "contentHash": "8db4ae3008dae64d8cb77df1d49c5e1a",
+      "sourceName": "@solidstate/contracts/factory/MinimalProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Factory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MinimalProxyFactory"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Uninstaller.sol": {
+      "lastModificationDate": 1656817611099,
+      "contentHash": "cf8b322810171b97dd14bfefac26ba97",
+      "sourceName": "contracts/external/Uninstaller.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "./IUninstaller.sol",
+        "./Upgrade.sol",
+        "../storage/GitStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Uninstaller"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IInstaller.sol": {
+      "lastModificationDate": 1656817611099,
+      "contentHash": "76c240c262ca1d2a109eaa11bcb2db29",
+      "sourceName": "contracts/external/IInstaller.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IInstaller"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/factory/Factory.sol": {
+      "lastModificationDate": 1656817638554,
+      "contentHash": "b4d087eea2ada97d066d6d85a824aa0e",
+      "sourceName": "@solidstate/contracts/factory/Factory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Factory"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IUninstaller.sol": {
+      "lastModificationDate": 1656919180499,
+      "contentHash": "e66afc6e5e13c179b2e1f4b75288f305",
+      "sourceName": "contracts/external/IUninstaller.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUninstaller"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/PackageManager.sol": {
+      "lastModificationDate": 1657605871002,
+      "contentHash": "821cdb260f7e031e3538f03bf9e234ec",
+      "sourceName": "contracts/logic/PackageManager.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Library.sol",
+        "./IPackageManager.sol",
+        "./IGit.sol",
+        "../external/Installer.sol",
+        "@solidstate/contracts/access/ownable/OwnableInternal.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PackageManager"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/IPackageManager.sol": {
+      "lastModificationDate": 1657588543622,
+      "contentHash": "da64ba6374427056e4fc0a56a887b10b",
+      "sourceName": "contracts/logic/IPackageManager.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPackageManager"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/IGit.sol": {
+      "lastModificationDate": 1657421498454,
+      "contentHash": "def996e12e74be98d0bda2bd2972fa17",
+      "sourceName": "contracts/logic/IGit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IGit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableInternal.sol": {
+      "lastModificationDate": 1656817638540,
+      "contentHash": "ac00e4bc6cd335659a8d7f7d5ad145ac",
+      "sourceName": "@solidstate/contracts/access/ownable/OwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnableInternal.sol",
+        "./OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1656817637260,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnableInternal.sol": {
+      "lastModificationDate": 1656817638540,
+      "contentHash": "10e9d02c0d76693fb5a209f4cf9f4f94",
+      "sourceName": "@solidstate/contracts/access/ownable/IOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/IERC173Internal.sol": {
+      "lastModificationDate": 1656817638542,
+      "contentHash": "535aa42172a038a4900a3f1cd4e8cbfa",
+      "sourceName": "@solidstate/contracts/access/IERC173Internal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173Internal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/Xpm.sol": {
+      "lastModificationDate": 1657144437646,
+      "contentHash": "fd22d3e9fb17a26c2b1dcbe9be44d746",
+      "sourceName": "contracts/Xpm.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/access/ownable/OwnableInternal.sol",
+        "./logic/PackageManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Xpm"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBase.sol": {
+      "lastModificationDate": 1656817638532,
+      "contentHash": "120994cf32e42ea8d3f2d2755ce29b8e",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../Proxy.sol",
+        "./IDiamondBase.sol",
+        "./DiamondBaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondBase"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1656817638535,
+      "contentHash": "c0e2c885858812b003aa3f510759e980",
+      "sourceName": "@solidstate/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/AddressUtils.sol",
+        "./IProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol": {
+      "lastModificationDate": 1656817638533,
+      "contentHash": "819034e105755f02d94ea034877cb79f",
+      "sourceName": "@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../IProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondBase"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/IProxy.sol": {
+      "lastModificationDate": 1656817638536,
+      "contentHash": "05fd2d62d550433bf0376d0864f9af23",
+      "sourceName": "@solidstate/contracts/proxy/IProxy.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IProxy"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol": {
+      "lastModificationDate": 1656817638530,
+      "contentHash": "223175bcbff5ad4d018eefda11d60263",
+      "sourceName": "@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../access/ownable/OwnableInternal.sol",
+        "../base/DiamondBaseStorage.sol",
+        "./IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondWritable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/Git.sol": {
+      "lastModificationDate": 1657422146205,
+      "contentHash": "1a36915f91ae537325a27c1f7e3f7f1d",
+      "sourceName": "contracts/logic/Git.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/factory/MinimalProxyFactory.sol",
+        "./IGit.sol",
+        "../storage/GitStorage.sol",
+        "../external/Installer.sol",
+        "../external/Uninstaller.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Git"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/TokenInit.sol": {
+      "lastModificationDate": 1656817611095,
+      "contentHash": "334465262be00c904a0f2f874b4a364c",
+      "sourceName": "contracts/_library/0xpm/governance/init/TokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/factory/MinimalProxyFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol": {
+      "lastModificationDate": 1656817638485,
+      "contentHash": "9eb4db24d439e786767b9ec9d1af7026",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Internal.sol",
+        "./ERC20BaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20BaseInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol": {
+      "lastModificationDate": 1656817638483,
+      "contentHash": "6afc6a84cb9723ea97894706f3164f87",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20MetadataStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol": {
+      "lastModificationDate": 1656817638484,
+      "contentHash": "56eaa6a2d2ffa33578c5ae626a1cc981",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20BaseStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20Internal.sol": {
+      "lastModificationDate": 1656817638481,
+      "contentHash": "55edf8cf47ef271d5a73b508bf7eef0f",
+      "sourceName": "@solidstate/contracts/token/ERC20/IERC20Internal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Internal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20Base.sol": {
+      "lastModificationDate": 1656817638484,
+      "contentHash": "c0f4e6c97b3ef1da701f94aea5d893b0",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20Base.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "./IERC20Base.sol",
+        "./ERC20BaseInternal.sol",
+        "./ERC20BaseStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Base"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1656817638477,
+      "contentHash": "17807f91def3e123217a05daec098fdf",
+      "sourceName": "@solidstate/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/IERC20Base.sol": {
+      "lastModificationDate": 1656817638484,
+      "contentHash": "960b703a797e61692bee0df7d9616fb5",
+      "sourceName": "@solidstate/contracts/token/ERC20/base/IERC20Base.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Base"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol": {
+      "lastModificationDate": 1656817638482,
+      "contentHash": "b08b1f008e7590f2f9e9e730c29a8fad",
+      "sourceName": "@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../base/ERC20Base.sol",
+        "./IERC20Extended.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Extended"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol": {
+      "lastModificationDate": 1656817638482,
+      "contentHash": "47c0fb4cc5fa513b34b6842f2bb561ad",
+      "sourceName": "@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Extended"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/ISolidStateERC20.sol": {
+      "lastModificationDate": 1656817638482,
+      "contentHash": "fae19f9acc76fe5568762d95d8a3639f",
+      "sourceName": "@solidstate/contracts/token/ERC20/ISolidStateERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./base/IERC20Base.sol",
+        "./extended/IERC20Extended.sol",
+        "./metadata/IERC20Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISolidStateERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol": {
+      "lastModificationDate": 1656817638483,
+      "contentHash": "1ed4750e7ecb3146c580a042d320cc50",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol": {
+      "lastModificationDate": 1656817638483,
+      "contentHash": "0eb8d5f0dcb1182d27be897b05f45b74",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Metadata.sol",
+        "./ERC20MetadataInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Metadata"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol": {
+      "lastModificationDate": 1656817638483,
+      "contentHash": "ab1ea617dbd989f73f5684bda838a268",
+      "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20MetadataStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20MetadataInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/MyToken.sol": {
+      "lastModificationDate": 1656817611084,
+      "contentHash": "75f3945c9c67e1efbe353d25784ee20a",
+      "sourceName": "contracts/_library/habitat/facets/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/SolidStateERC20.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "../storage/MyTokenInit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/SolidStateERC20.sol": {
+      "lastModificationDate": 1656817638482,
+      "contentHash": "8d78696d131cc0096102de00032f05e5",
+      "sourceName": "@solidstate/contracts/token/ERC20/SolidStateERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISolidStateERC20.sol",
+        "./base/ERC20Base.sol",
+        "./extended/ERC20Extended.sol",
+        "./metadata/ERC20Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SolidStateERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/MyTokenInit.sol": {
+      "lastModificationDate": 1656817611089,
+      "contentHash": "2c92d61d4cc9b6ecded717e76bff4592",
+      "sourceName": "contracts/_library/habitat/storage/MyTokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyTokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/GovernanceTokenInit.sol": {
+      "lastModificationDate": 1656817611096,
+      "contentHash": "38256f732a5b8b387f0e76eee21a63e9",
+      "sourceName": "contracts/_library/0xpm/governance/init/GovernanceTokenInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
+        "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernanceTokenInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/Diamond.sol": {
+      "lastModificationDate": 1656824543717,
+      "contentHash": "a808bf62807a120f6aae246f8abaf6cf",
+      "sourceName": "contracts/Diamond.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/access/ownable/OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Diamond"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/DiamondRegistry.sol": {
+      "lastModificationDate": 1657863811390,
+      "contentHash": "35a806937239443c8bf53ca6cf5a2679",
+      "sourceName": "contracts/logic/DiamondRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Diamond.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
+        "@solidstate/contracts/access/IERC173.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondRegistry"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/IERC173.sol": {
+      "lastModificationDate": 1656817638542,
+      "contentHash": "c756cacd09f6b651988f3e1506234e76",
+      "sourceName": "@solidstate/contracts/access/IERC173.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC173Internal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnable.sol": {
+      "lastModificationDate": 1656817638538,
+      "contentHash": "2a7998d55c3fe853e54c113b0ecda6a6",
+      "sourceName": "@solidstate/contracts/access/ownable/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnable.sol": {
+      "lastModificationDate": 1656817638541,
+      "contentHash": "002bfae8424baec5f66abfa430b74a79",
+      "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISafeOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/init/XpmInit.sol": {
+      "lastModificationDate": 1657144287174,
+      "contentHash": "444422ca6d45cff6afa533e470fcb441",
+      "sourceName": "contracts/init/XpmInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../logic/IGit.sol",
+        "../logic/IPackageManager.sol",
+        "@solidstate/contracts/introspection/ERC165.sol",
+        "@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
+        "@solidstate/contracts/access/ownable/ISafeOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "XpmInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1656817638553,
+      "contentHash": "44cef6134c467f198914c6317a250a27",
+      "sourceName": "@solidstate/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol",
+        "./ERC165Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol": {
+      "lastModificationDate": 1656817638531,
+      "contentHash": "154e88f27c765a0f38c3facc95f34171",
+      "sourceName": "@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondReadable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1656817638553,
+      "contentHash": "028807e00ea83c0330761ca80ed6fa41",
+      "sourceName": "@solidstate/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/ERC165Storage.sol": {
+      "lastModificationDate": 1656817638552,
+      "contentHash": "97fcb867addbcab036e8dad118becc82",
+      "sourceName": "@solidstate/contracts/introspection/ERC165Storage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Storage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol": {
+      "lastModificationDate": 1656817638531,
+      "contentHash": "63515fd1804e05d853fa0a91a3067d04",
+      "sourceName": "@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../base/DiamondBaseStorage.sol",
+        "./IDiamondReadable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondReadable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/logic/Governance.sol": {
+      "lastModificationDate": 1657080686474,
+      "contentHash": "2404f7e72e279c180c42009f16c1328b",
+      "sourceName": "contracts/_library/0xpm/governance/logic/Governance.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../../../contracts/logic/libraries/Library.sol",
+        "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
+        "@solidstate/contracts/utils/AddressUtils.sol",
+        "../storage/GovernanceStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Governance"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Readable.sol": {
+      "lastModificationDate": 1656817611097,
+      "contentHash": "ea8d2d7c1c29c7b4fe5678068885964f",
+      "sourceName": "contracts/_library/solidstate/Readable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Readable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Erc165.sol": {
+      "lastModificationDate": 1656817611098,
+      "contentHash": "767af2ff517f6f385f892b7d3fd29587",
+      "sourceName": "contracts/_library/solidstate/Erc165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Erc165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnable.sol": {
+      "lastModificationDate": 1656817638541,
+      "contentHash": "9279d3a3076b881471deb0a39b707833",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./ISafeOwnable.sol",
+        "./OwnableInternal.sol",
+        "./SafeOwnableInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/Ownable.sol": {
+      "lastModificationDate": 1656817638539,
+      "contentHash": "41138dea8f4690c1de39e87ad1490c90",
+      "sourceName": "@solidstate/contracts/access/ownable/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC173.sol",
+        "./IOwnable.sol",
+        "./OwnableInternal.sol",
+        "./OwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableInternal.sol": {
+      "lastModificationDate": 1656817638538,
+      "contentHash": "c08d90ae1de358ac669724c4ddbd8b2b",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISafeOwnableInternal.sol",
+        "./OwnableInternal.sol",
+        "./OwnableStorage.sol",
+        "./SafeOwnableStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol": {
+      "lastModificationDate": 1656817638540,
+      "contentHash": "9f469daf1b811d3962f75816d87d4bbf",
+      "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnableInternal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISafeOwnableInternal"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableStorage.sol": {
+      "lastModificationDate": 1656817638541,
+      "contentHash": "221316dcb76e0068c2e55875a708b400",
+      "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeOwnableStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Ownership.sol": {
+      "lastModificationDate": 1656817611097,
+      "contentHash": "30a7fce46e83cd853d12ed30b9e39549",
+      "sourceName": "contracts/_library/solidstate/Ownership.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/access/ownable/SafeOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownership"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/DiamondFactory.sol": {
+      "lastModificationDate": 1657775749640,
+      "contentHash": "195e5d7686604966ea1c2b96d2664fd2",
+      "sourceName": "contracts/logic/DiamondFactory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Diamond.sol",
+        "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondFactory"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Writable.sol": {
+      "lastModificationDate": 1657080929542,
+      "contentHash": "b539f32ccbce04bbe3e7a138dc4d142e",
+      "sourceName": "contracts/_library/solidstate/Writable.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Writable"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/logic/Token.sol": {
+      "lastModificationDate": 1657080692820,
+      "contentHash": "f068f7c1ae24e5a06091acc13cd04cce",
+      "sourceName": "contracts/_library/0xpm/governance/logic/Token.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/greeter/logic/Greeter.sol": {
+      "lastModificationDate": 1656817611095,
+      "contentHash": "48ca5ba6753ff53833a179a6a38cd890",
+      "sourceName": "contracts/_library/0xpm/greeter/logic/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../storage/GreeterStorage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/greeter/storage/GreeterStorage.sol": {
+      "lastModificationDate": 1657080674896,
+      "contentHash": "a33109d4098f86dacfc2abd44e8ab734",
+      "sourceName": "contracts/_library/0xpm/greeter/storage/GreeterStorage.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GreeterStorage"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/decentralizedtech/Multicall2.sol": {
+      "lastModificationDate": 1656817611098,
+      "contentHash": "5f4a28895f058ff0696e9709a13bc68b",
+      "sourceName": "contracts/_library/decentralizedtech/Multicall2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Multicall2"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/CounterLens.sol": {
+      "lastModificationDate": 1656817611090,
+      "contentHash": "f883eb85971052dbae5a106290619deb",
+      "sourceName": "contracts/_library/habitat/CounterLens.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CounterLens"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/external/HabitatRepository.sol": {
+      "lastModificationDate": 1656817611091,
+      "contentHash": "70ae5635fe753919510322c4f9fd9235",
+      "sourceName": "contracts/_library/habitat/external/HabitatRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HabitatRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IRepository.sol": {
+      "lastModificationDate": 1656817611091,
+      "contentHash": "b0ada881d8807e8b84e714d1f8633e34",
+      "sourceName": "contracts/_library/habitat/interfaces/IRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/FacetRepository.sol": {
+      "lastModificationDate": 1656817611089,
+      "contentHash": "0bd7e1060be8ec2a4dfc194557ff2473",
+      "sourceName": "contracts/_library/habitat/storage/FacetRepository.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FacetRepository"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/DiamondCutFacet.sol": {
+      "lastModificationDate": 1656817611083,
+      "contentHash": "c83a1e892b79cd0cf345d33862fec1a9",
+      "sourceName": "contracts/_library/habitat/facets/DiamondCutFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol",
+        "../libraries/LibDiamond.sol",
+        "../storage/FacetRepository.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondCutFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IDiamondCut.sol": {
+      "lastModificationDate": 1656817611092,
+      "contentHash": "707e073af69d132ebdc36f0b766ed4d2",
+      "sourceName": "contracts/_library/habitat/interfaces/IDiamondCut.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondCut"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibDiamond.sol": {
+      "lastModificationDate": 1656817611086,
+      "contentHash": "9e50cb7737916d8fa479fe02450b9e1e",
+      "sourceName": "contracts/_library/habitat/libraries/LibDiamond.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IDiamondCut.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LibDiamond"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/upgradeInitializers/DiamondInit.sol": {
+      "lastModificationDate": 1656817611086,
+      "contentHash": "f10c4be384a3557711b2076f1330a2e6",
+      "sourceName": "contracts/_library/habitat/upgradeInitializers/DiamondInit.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IDiamondLoupe.sol",
+        "../interfaces/IDiamondCut.sol",
+        "../interfaces/IERC173.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondInit"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IDiamondLoupe.sol": {
+      "lastModificationDate": 1656817611092,
+      "contentHash": "a471cd6a18e337530aa0fb37a1dd2294",
+      "sourceName": "contracts/_library/habitat/interfaces/IDiamondLoupe.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDiamondLoupe"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IERC173.sol": {
+      "lastModificationDate": 1656817611094,
+      "contentHash": "65e379207bc221335d0eedfe7b077af6",
+      "sourceName": "contracts/_library/habitat/interfaces/IERC173.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC173"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IERC165.sol": {
+      "lastModificationDate": 1656817611094,
+      "contentHash": "f8f9ee2c76e1678bfead7a3fad131934",
+      "sourceName": "contracts/_library/habitat/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/DiamondLoupeFacet.sol": {
+      "lastModificationDate": 1656817611084,
+      "contentHash": "20fbbb16498bb5d7f6b426730cca5463",
+      "sourceName": "contracts/_library/habitat/facets/DiamondLoupeFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IDiamondLoupe.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DiamondLoupeFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/OwnershipFacet.sol": {
+      "lastModificationDate": 1656817611083,
+      "contentHash": "3ecfa87738e59d567e6c44c1708b9a7d",
+      "sourceName": "contracts/_library/habitat/facets/OwnershipFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LibDiamond.sol",
+        "../interfaces/IERC173.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnershipFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/external/StakeContract.sol": {
+      "lastModificationDate": 1656817611090,
+      "contentHash": "5109ac8270812e92a7e2911b9a72404b",
+      "sourceName": "contracts/_library/habitat/external/StakeContract.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/openzeppelin/IERC20.sol",
+        "../libraries/openzeppelin/SafeERC20.sol",
+        "../interfaces/IVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SignersSetter",
+        "StakeContract"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/IERC20.sol": {
+      "lastModificationDate": 1656817611088,
+      "contentHash": "ae3ee83cf946e39c01ae66d440d6e48f",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol": {
+      "lastModificationDate": 1656817611088,
+      "contentHash": "dcb20d7b5f9db35c6768ced3f7b3a577",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IVotingPower.sol": {
+      "lastModificationDate": 1656817611091,
+      "contentHash": "1ad4c1496d0a463882f3486d43b35d01",
+      "sourceName": "contracts/_library/habitat/interfaces/IVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/Address.sol": {
+      "lastModificationDate": 1656817611088,
+      "contentHash": "f3845818a6b38f565fc84a78259540d3",
+      "sourceName": "contracts/_library/habitat/libraries/openzeppelin/Address.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/VotingPowerFacet.sol": {
+      "lastModificationDate": 1656817611084,
+      "contentHash": "91c51208fc0531b5503ec916142ce4ac",
+      "sourceName": "contracts/_library/habitat/facets/VotingPowerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotingPower.sol",
+        "../libraries/LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "VotingPowerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibVotingPower.sol": {
+      "lastModificationDate": 1656817611086,
+      "contentHash": "c59795beb992fe3eccda6c059b93893e",
+      "sourceName": "contracts/_library/habitat/libraries/LibVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotingPower.sol",
+        "./LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibTreasury.sol": {
+      "lastModificationDate": 1656817611087,
+      "contentHash": "9613d4734d580f294b56b87c3c952119",
+      "sourceName": "contracts/_library/habitat/libraries/LibTreasury.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/treasury/ITreasury.sol",
+        "../interfaces/treasury/ITreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasury"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasury.sol": {
+      "lastModificationDate": 1656817611092,
+      "contentHash": "c19d96aa69d0c832cdfadea4b0bd3755",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasury.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasury"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol": {
+      "lastModificationDate": 1656817611092,
+      "contentHash": "4daf83e9527f256b596c336ddd391530",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol": {
+      "lastModificationDate": 1656817611087,
+      "contentHash": "6a26c85f3fe33e7ca7ffc8534c013985",
+      "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasury.sol",
+        "../LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasuryVoting"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol": {
+      "lastModificationDate": 1656817611085,
+      "contentHash": "bb64a610f0f16fb053a1c16eedb68ebe",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVoting.sol",
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../../libraries/treasury/LibTreasuryVotingPower.sol",
+        "../../libraries/LibTreasury.sol",
+        "../../libraries/LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryVotingFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol": {
+      "lastModificationDate": 1656817611093,
+      "contentHash": "0ed5cd95bc096c2d134a0054e4d7e420",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryVoting"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol": {
+      "lastModificationDate": 1656817611087,
+      "contentHash": "0040a62aeb58ccf1717ef1e79e16b37c",
+      "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../LibTreasury.sol",
+        "../LibVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "LibTreasuryVotingPower"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol": {
+      "lastModificationDate": 1656817611085,
+      "contentHash": "fb4bb530a2c7c76c55f817735358d616",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryVotingPower.sol",
+        "../../libraries/LibTreasury.sol",
+        "../../libraries/treasury/LibTreasuryVotingPower.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryVotingPowerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol": {
+      "lastModificationDate": 1656817611085,
+      "contentHash": "e5a883b5f73bc87a755b2c5aa8ec176d",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../libraries/LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryViewerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol": {
+      "lastModificationDate": 1656817611085,
+      "contentHash": "57ee455f3f9a86d4fce80ac039948492",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/ITreasuryExecution.sol",
+        "../../interfaces/treasury/ITreasury.sol",
+        "../../libraries/LibTreasury.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryExecutionFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol": {
+      "lastModificationDate": 1656817611093,
+      "contentHash": "cbadd7559d9da9f1a9810af977a58a43",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ITreasuryExecution"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/LocalFacet.sol": {
+      "lastModificationDate": 1656817611084,
+      "contentHash": "8d8e5ade24ca7fb6857f573cb012cf54",
+      "sourceName": "contracts/_library/habitat/facets/LocalFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../storage/Counter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LocalFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/Counter.sol": {
+      "lastModificationDate": 1656817611089,
+      "contentHash": "7871cb4fc3bcd3acb41f059c2d2f9f81",
+      "sourceName": "contracts/_library/habitat/storage/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/LocalFacetTest.sol": {
+      "lastModificationDate": 1656817611083,
+      "contentHash": "e04e0eaf60619da08c0c0e906de069a3",
+      "sourceName": "contracts/_library/habitat/facets/LocalFacetTest.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../storage/Counter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LocalFacetTest"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
+      "lastModificationDate": 1656817611085,
+      "contentHash": "6b5bd64c5a16fd4ae1fa03c82e1e4b2e",
+      "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
+        "../../interfaces/treasury/tokens/ERC721TokenReceiver.sol",
+        "../../interfaces/treasury/tokens/ERC777TokensRecipient.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TreasuryDefaultCallbackHandlerFacet"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1656817611093,
+      "contentHash": "b193999e29685c271f100ff6978bd167",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1656817611093,
+      "contentHash": "3f0817284e32da6458fa3c9c9da3350d",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1656817611094,
+      "contentHash": "9d253b41c7bc996cec48c70965789ac6",
+      "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/MyTokenLens.sol": {
+      "lastModificationDate": 1656817611083,
+      "contentHash": "44e84406fce199d7f32d455accbe0d4d",
+      "sourceName": "contracts/_library/habitat/MyTokenLens.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyTokenLens"
+      ]
+    },
+    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/hardhat-diamond-abi/dist/contract.sol": {
+      "lastModificationDate": 1657863949510,
+      "contentHash": "ee43007b1b8cec63c1fc90acfa2a0784",
+      "sourceName": "hardhat-diamond-abi/HardhatDiamondABI.sol",
+      "solcConfig": {
+        "version": "X.X.X",
+        "settings": {}
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "XpmDiamond"
+      ]
+    }
+  }
+}

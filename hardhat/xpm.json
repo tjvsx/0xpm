@@ -1,0 +1,53 @@
+{
+  "functionSelectors": {
+    "facetAddress(bytes4)": "Readable",
+    "facetAddresses()": "Readable",
+    "facetFunctionSelectors(address)": "Readable",
+    "facets()": "Readable",
+    "acceptOwnership()": "Ownership",
+    "nomineeOwner()": "Ownership",
+    "owner()": "Ownership",
+    "transferOwnership(address)": "Ownership",
+    "supportsInterface(bytes4)": "Erc165",
+    "diamondCut((address,uint8,bytes4[])[],address,bytes)": "Writable",
+    "createDiamond((address,uint8,bytes4[])[],address,bytes)": "DiamondFactory",
+    "commit(string,(address,uint8,bytes4[])[],address,bytes)": "Git",
+    "latest(address,string)": "Git",
+    "model()": "Git",
+    "unsubscribe(address,string)": "Git"
+  },
+  "contracts": {
+    "Readable": {
+      "name": "Readable",
+      "address": "0xb189C9240E299E395015EbF4c364501155278167",
+      "type": "remote"
+    },
+    "Ownership": {
+      "name": "Ownership",
+      "address": "0x411046eF42d1f1DBFc7EC456C4EC5a34649406aE",
+      "type": "remote"
+    },
+    "Erc165": {
+      "name": "Erc165",
+      "address": "0x582Da2396C7Fc1Eb2f9bD4E80D7bFD68a4B8dfa0",
+      "type": "remote"
+    },
+    "Writable": {
+      "name": "Writable",
+      "address": "0x1828F77B963869a5da8e0DCe007de6775368A5dc",
+      "type": "remote"
+    },
+    "DiamondFactory": {
+      "name": "DiamondFactory",
+      "address": "0x28eE327B7114423B3A8d93DBDFCc96f5d1511974",
+      "type": "remote"
+    },
+    "Git": {
+      "name": "Git",
+      "address": "0x9426889aF6176E64831EDF3852733BFd93C58c56",
+      "type": "remote"
+    }
+  },
+  "chainId": 1337,
+  "address": "0xA90F76CfF1a3bdC62A407DEA268E71c91fd29020"
+}
