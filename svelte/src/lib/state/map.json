@@ -1,0 +1,31 @@
+{
+  "1337": {
+    "Xpm": [
+      "0x90AD39805A54b2ac32239520988C856C84d89115"
+    ],
+    "Readable": [
+      "0xA0D62133026F725C9C0b16cFbE4e3d8f5006b952"
+    ],
+    "Ownership": [
+      "0xfB4e95fC763b117bff1A769ef5B4187Ec1A9b66e"
+    ],
+    "Erc165": [
+      "0xC076Bdbb4A474Fdb4f5A55CD80538FBb33dd0C03"
+    ],
+    "Writable": [
+      "0x6883eCbEf4F79a61ECF64ccD761bb97C116398E8"
+    ],
+    "PackageManager": [
+      "0xfD9a832FcD47053F742e092DE2C6657806666890"
+    ],
+    "Git": [
+      "0x908a3187eeE65230E273CEe5b384acC3A3B93E21"
+    ],
+    "DiamondFactory": [
+      "0x03433cc1B25cA59053AdB659e83fdbfC4096fcBE"
+    ],
+    "XpmInit": [
+      "0xEB1F80e7F5162D57aabCF5e7CCD6c8928111227E"
+    ]
+  }
+}
