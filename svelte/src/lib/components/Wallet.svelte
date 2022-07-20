@@ -66,13 +66,4 @@ import {
   .box {
     @apply w-[35em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-200 border-2 border-black rounded-2xl z-50 flex flex-col justify-between gap-5 shadow-2xl;
   }
-  span {
-    @apply font-bold text-lg w-full;
-  }
-  button {
-    @apply bg-black text-white p-1 px-2 rounded-full cursor-pointer;
-  }
-  section {
-    @apply m-3 py-1;
-  }
 </style>

@@ -203,15 +203,6 @@ import { onMount } from 'svelte';
   section {
     @apply p-3;
   }
-  h2 {
-    @apply font-bold text-2xl;
-  }
-  h3 {
-    @apply font-bold text-xl;
-  }
-  h4 {
-    @apply font-bold text-lg;
-  }
   button {
     @apply p-2 px-3;
   }
