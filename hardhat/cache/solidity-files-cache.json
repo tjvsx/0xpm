@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/GovernanceInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/init/GovernanceInit.sol": {
       "lastModificationDate": 1656817611096,
       "contentHash": "23adb61a48400f09db85250433675f18",
       "sourceName": "contracts/_library/0xpm/governance/init/GovernanceInit.sol",
@@ -39,7 +39,7 @@
         "GovernanceInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableStorage.sol": {
       "lastModificationDate": 1656817638541,
       "contentHash": "8d4030cf1f72456002a25402227eca29",
       "sourceName": "@solidstate/contracts/access/ownable/OwnableStorage.sol",
@@ -74,7 +74,7 @@
         "OwnableStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/storage/GovernanceStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/storage/GovernanceStorage.sol": {
       "lastModificationDate": 1657080679510,
       "contentHash": "9a8bb428b9459c3f16bd3edf291dabcd",
       "sourceName": "contracts/_library/0xpm/governance/storage/GovernanceStorage.sol",
@@ -109,7 +109,7 @@
         "GovernanceStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/libraries/Library.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/libraries/Library.sol": {
       "lastModificationDate": 1657159761628,
       "contentHash": "fa82bebab69c7af5f1ae7668c1e862b8",
       "sourceName": "contracts/logic/libraries/Library.sol",
@@ -151,7 +151,7 @@
         "Library"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol": {
       "lastModificationDate": 1656817638530,
       "contentHash": "819799ff698fbc7a23d8a70b4ba3c040",
       "sourceName": "@solidstate/contracts/proxy/diamond/writable/IDiamondWritable.sol",
@@ -186,7 +186,7 @@
         "IDiamondWritable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol": {
       "lastModificationDate": 1656817638532,
       "contentHash": "d74176c4eebea4719e43f00f5b3b5b7f",
       "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBaseStorage.sol",
@@ -224,7 +224,7 @@
         "DiamondBaseStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Upgrade.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/Upgrade.sol": {
       "lastModificationDate": 1656817611099,
       "contentHash": "d853bc4840aa55360c19ba476163fa29",
       "sourceName": "contracts/external/Upgrade.sol",
@@ -262,7 +262,7 @@
         "Upgrade"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/storage/GitStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/storage/GitStorage.sol": {
       "lastModificationDate": 1657422786157,
       "contentHash": "3684eca880f25da920071e3998258650",
       "sourceName": "contracts/storage/GitStorage.sol",
@@ -299,7 +299,7 @@
         "GitStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Installer.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/Installer.sol": {
       "lastModificationDate": 1656817611100,
       "contentHash": "d6f9f11cafdf4f1d34bfcd0d8e1105a1",
       "sourceName": "contracts/external/Installer.sol",
@@ -340,7 +340,7 @@
         "Installer"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/AddressUtils.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/utils/AddressUtils.sol": {
       "lastModificationDate": 1656817638551,
       "contentHash": "012052926d8dd8003145af65cb55d5a8",
       "sourceName": "@solidstate/contracts/utils/AddressUtils.sol",
@@ -377,7 +377,7 @@
         "AddressUtils"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/UintUtils.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/utils/UintUtils.sol": {
       "lastModificationDate": 1656817638552,
       "contentHash": "ec78c5df663acd746494d437321055b2",
       "sourceName": "@solidstate/contracts/utils/UintUtils.sol",
@@ -412,7 +412,7 @@
         "UintUtils"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IUpgrade.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/IUpgrade.sol": {
       "lastModificationDate": 1656817611100,
       "contentHash": "a0f544ba955eaa31975faf27a24e6867",
       "sourceName": "contracts/external/IUpgrade.sol",
@@ -449,7 +449,7 @@
         "IUpgrade"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/utils/EnumerableSet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/utils/EnumerableSet.sol": {
       "lastModificationDate": 1656817638551,
       "contentHash": "f09219a7ba37757b20acb5f1ec047042",
       "sourceName": "@solidstate/contracts/utils/EnumerableSet.sol",
@@ -484,7 +484,7 @@
         "EnumerableSet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/factory/MinimalProxyFactory.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/factory/MinimalProxyFactory.sol": {
       "lastModificationDate": 1656817638554,
       "contentHash": "8db4ae3008dae64d8cb77df1d49c5e1a",
       "sourceName": "@solidstate/contracts/factory/MinimalProxyFactory.sol",
@@ -521,7 +521,7 @@
         "MinimalProxyFactory"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/Uninstaller.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/Uninstaller.sol": {
       "lastModificationDate": 1656817611099,
       "contentHash": "cf8b322810171b97dd14bfefac26ba97",
       "sourceName": "contracts/external/Uninstaller.sol",
@@ -561,7 +561,7 @@
         "Uninstaller"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IInstaller.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/IInstaller.sol": {
       "lastModificationDate": 1656817611099,
       "contentHash": "76c240c262ca1d2a109eaa11bcb2db29",
       "sourceName": "contracts/external/IInstaller.sol",
@@ -598,7 +598,7 @@
         "IInstaller"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/factory/Factory.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/factory/Factory.sol": {
       "lastModificationDate": 1656817638554,
       "contentHash": "b4d087eea2ada97d066d6d85a824aa0e",
       "sourceName": "@solidstate/contracts/factory/Factory.sol",
@@ -633,7 +633,7 @@
         "Factory"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/external/IUninstaller.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/external/IUninstaller.sol": {
       "lastModificationDate": 1656919180499,
       "contentHash": "e66afc6e5e13c179b2e1f4b75288f305",
       "sourceName": "contracts/external/IUninstaller.sol",
@@ -670,7 +670,7 @@
         "IUninstaller"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/PackageManager.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/PackageManager.sol": {
       "lastModificationDate": 1657605871002,
       "contentHash": "821cdb260f7e031e3538f03bf9e234ec",
       "sourceName": "contracts/logic/PackageManager.sol",
@@ -712,7 +712,7 @@
         "PackageManager"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/IPackageManager.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/IPackageManager.sol": {
       "lastModificationDate": 1657588543622,
       "contentHash": "da64ba6374427056e4fc0a56a887b10b",
       "sourceName": "contracts/logic/IPackageManager.sol",
@@ -747,7 +747,7 @@
         "IPackageManager"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/IGit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/IGit.sol": {
       "lastModificationDate": 1657421498454,
       "contentHash": "def996e12e74be98d0bda2bd2972fa17",
       "sourceName": "contracts/logic/IGit.sol",
@@ -784,7 +784,7 @@
         "IGit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/OwnableInternal.sol": {
       "lastModificationDate": 1656817638540,
       "contentHash": "ac00e4bc6cd335659a8d7f7d5ad145ac",
       "sourceName": "@solidstate/contracts/access/ownable/OwnableInternal.sol",
@@ -822,7 +822,7 @@
         "OwnableInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/hardhat/console.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1656817637260,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
@@ -857,7 +857,7 @@
         "console"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnableInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnableInternal.sol": {
       "lastModificationDate": 1656817638540,
       "contentHash": "10e9d02c0d76693fb5a209f4cf9f4f94",
       "sourceName": "@solidstate/contracts/access/ownable/IOwnableInternal.sol",
@@ -894,7 +894,7 @@
         "IOwnableInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/IERC173Internal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/IERC173Internal.sol": {
       "lastModificationDate": 1656817638542,
       "contentHash": "535aa42172a038a4900a3f1cd4e8cbfa",
       "sourceName": "@solidstate/contracts/access/IERC173Internal.sol",
@@ -929,7 +929,7 @@
         "IERC173Internal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/Xpm.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/Xpm.sol": {
       "lastModificationDate": 1657144437646,
       "contentHash": "fd22d3e9fb17a26c2b1dcbe9be44d746",
       "sourceName": "contracts/Xpm.sol",
@@ -969,7 +969,7 @@
         "Xpm"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBase.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/DiamondBase.sol": {
       "lastModificationDate": 1656817638532,
       "contentHash": "120994cf32e42ea8d3f2d2755ce29b8e",
       "sourceName": "@solidstate/contracts/proxy/diamond/base/DiamondBase.sol",
@@ -1008,7 +1008,7 @@
         "DiamondBase"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/Proxy.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/Proxy.sol": {
       "lastModificationDate": 1656817638535,
       "contentHash": "c0e2c885858812b003aa3f510759e980",
       "sourceName": "@solidstate/contracts/proxy/Proxy.sol",
@@ -1046,7 +1046,7 @@
         "Proxy"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol": {
       "lastModificationDate": 1656817638533,
       "contentHash": "819034e105755f02d94ea034877cb79f",
       "sourceName": "@solidstate/contracts/proxy/diamond/base/IDiamondBase.sol",
@@ -1083,7 +1083,7 @@
         "IDiamondBase"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/IProxy.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/IProxy.sol": {
       "lastModificationDate": 1656817638536,
       "contentHash": "05fd2d62d550433bf0376d0864f9af23",
       "sourceName": "@solidstate/contracts/proxy/IProxy.sol",
@@ -1118,7 +1118,7 @@
         "IProxy"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol": {
       "lastModificationDate": 1656817638530,
       "contentHash": "223175bcbff5ad4d018eefda11d60263",
       "sourceName": "@solidstate/contracts/proxy/diamond/writable/DiamondWritable.sol",
@@ -1157,7 +1157,7 @@
         "DiamondWritable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/Git.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/Git.sol": {
       "lastModificationDate": 1657422146205,
       "contentHash": "1a36915f91ae537325a27c1f7e3f7f1d",
       "sourceName": "contracts/logic/Git.sol",
@@ -1199,7 +1199,7 @@
         "Git"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/TokenInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/init/TokenInit.sol": {
       "lastModificationDate": 1656817611095,
       "contentHash": "334465262be00c904a0f2f874b4a364c",
       "sourceName": "contracts/_library/0xpm/governance/init/TokenInit.sol",
@@ -1239,7 +1239,7 @@
         "TokenInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol": {
       "lastModificationDate": 1656817638485,
       "contentHash": "9eb4db24d439e786767b9ec9d1af7026",
       "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol",
@@ -1277,7 +1277,7 @@
         "ERC20BaseInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol": {
       "lastModificationDate": 1656817638483,
       "contentHash": "6afc6a84cb9723ea97894706f3164f87",
       "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataStorage.sol",
@@ -1312,7 +1312,7 @@
         "ERC20MetadataStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol": {
       "lastModificationDate": 1656817638484,
       "contentHash": "56eaa6a2d2ffa33578c5ae626a1cc981",
       "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20BaseStorage.sol",
@@ -1347,7 +1347,7 @@
         "ERC20BaseStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20Internal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20Internal.sol": {
       "lastModificationDate": 1656817638481,
       "contentHash": "55edf8cf47ef271d5a73b508bf7eef0f",
       "sourceName": "@solidstate/contracts/token/ERC20/IERC20Internal.sol",
@@ -1382,7 +1382,7 @@
         "IERC20Internal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20Base.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/ERC20Base.sol": {
       "lastModificationDate": 1656817638484,
       "contentHash": "c0f4e6c97b3ef1da701f94aea5d893b0",
       "sourceName": "@solidstate/contracts/token/ERC20/base/ERC20Base.sol",
@@ -1422,7 +1422,7 @@
         "ERC20Base"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/IERC20.sol": {
       "lastModificationDate": 1656817638477,
       "contentHash": "17807f91def3e123217a05daec098fdf",
       "sourceName": "@solidstate/contracts/token/ERC20/IERC20.sol",
@@ -1459,7 +1459,7 @@
         "IERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/IERC20Base.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/base/IERC20Base.sol": {
       "lastModificationDate": 1656817638484,
       "contentHash": "960b703a797e61692bee0df7d9616fb5",
       "sourceName": "@solidstate/contracts/token/ERC20/base/IERC20Base.sol",
@@ -1496,7 +1496,7 @@
         "IERC20Base"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol": {
       "lastModificationDate": 1656817638482,
       "contentHash": "b08b1f008e7590f2f9e9e730c29a8fad",
       "sourceName": "@solidstate/contracts/token/ERC20/extended/ERC20Extended.sol",
@@ -1534,7 +1534,7 @@
         "ERC20Extended"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol": {
       "lastModificationDate": 1656817638482,
       "contentHash": "47c0fb4cc5fa513b34b6842f2bb561ad",
       "sourceName": "@solidstate/contracts/token/ERC20/extended/IERC20Extended.sol",
@@ -1571,7 +1571,7 @@
         "IERC20Extended"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/ISolidStateERC20.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/ISolidStateERC20.sol": {
       "lastModificationDate": 1656817638482,
       "contentHash": "fae19f9acc76fe5568762d95d8a3639f",
       "sourceName": "@solidstate/contracts/token/ERC20/ISolidStateERC20.sol",
@@ -1610,7 +1610,7 @@
         "ISolidStateERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol": {
       "lastModificationDate": 1656817638483,
       "contentHash": "1ed4750e7ecb3146c580a042d320cc50",
       "sourceName": "@solidstate/contracts/token/ERC20/metadata/IERC20Metadata.sol",
@@ -1645,7 +1645,7 @@
         "IERC20Metadata"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol": {
       "lastModificationDate": 1656817638483,
       "contentHash": "0eb8d5f0dcb1182d27be897b05f45b74",
       "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20Metadata.sol",
@@ -1683,7 +1683,7 @@
         "ERC20Metadata"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol": {
       "lastModificationDate": 1656817638483,
       "contentHash": "ab1ea617dbd989f73f5684bda838a268",
       "sourceName": "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol",
@@ -1720,7 +1720,7 @@
         "ERC20MetadataInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/MyToken.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/MyToken.sol": {
       "lastModificationDate": 1656817611084,
       "contentHash": "75f3945c9c67e1efbe353d25784ee20a",
       "sourceName": "contracts/_library/habitat/facets/MyToken.sol",
@@ -1759,7 +1759,7 @@
         "MyToken"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/token/ERC20/SolidStateERC20.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/token/ERC20/SolidStateERC20.sol": {
       "lastModificationDate": 1656817638482,
       "contentHash": "8d78696d131cc0096102de00032f05e5",
       "sourceName": "@solidstate/contracts/token/ERC20/SolidStateERC20.sol",
@@ -1799,7 +1799,7 @@
         "SolidStateERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/MyTokenInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/storage/MyTokenInit.sol": {
       "lastModificationDate": 1656817611089,
       "contentHash": "2c92d61d4cc9b6ecded717e76bff4592",
       "sourceName": "contracts/_library/habitat/storage/MyTokenInit.sol",
@@ -1834,7 +1834,7 @@
         "MyTokenInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/init/GovernanceTokenInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/init/GovernanceTokenInit.sol": {
       "lastModificationDate": 1656817611096,
       "contentHash": "38256f732a5b8b387f0e76eee21a63e9",
       "sourceName": "contracts/_library/0xpm/governance/init/GovernanceTokenInit.sol",
@@ -1875,7 +1875,7 @@
         "GovernanceTokenInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/Diamond.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/Diamond.sol": {
       "lastModificationDate": 1656824543717,
       "contentHash": "a808bf62807a120f6aae246f8abaf6cf",
       "sourceName": "contracts/Diamond.sol",
@@ -1914,8 +1914,8 @@
         "Diamond"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/DiamondRegistry.sol": {
-      "lastModificationDate": 1657863811390,
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/DiamondRegistry.sol": {
+      "lastModificationDate": 1657869119937,
       "contentHash": "35a806937239443c8bf53ca6cf5a2679",
       "sourceName": "contracts/logic/DiamondRegistry.sol",
       "solcConfig": {
@@ -1954,7 +1954,7 @@
         "DiamondRegistry"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/IERC173.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/IERC173.sol": {
       "lastModificationDate": 1656817638542,
       "contentHash": "c756cacd09f6b651988f3e1506234e76",
       "sourceName": "@solidstate/contracts/access/IERC173.sol",
@@ -1991,7 +1991,7 @@
         "IERC173"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/IOwnable.sol": {
       "lastModificationDate": 1656817638538,
       "contentHash": "2a7998d55c3fe853e54c113b0ecda6a6",
       "sourceName": "@solidstate/contracts/access/ownable/IOwnable.sol",
@@ -2028,7 +2028,7 @@
         "IOwnable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnable.sol": {
       "lastModificationDate": 1656817638541,
       "contentHash": "002bfae8424baec5f66abfa430b74a79",
       "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnable.sol",
@@ -2065,7 +2065,7 @@
         "ISafeOwnable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/init/XpmInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/init/XpmInit.sol": {
       "lastModificationDate": 1657144287174,
       "contentHash": "444422ca6d45cff6afa533e470fcb441",
       "sourceName": "contracts/init/XpmInit.sol",
@@ -2107,7 +2107,7 @@
         "XpmInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/ERC165.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/introspection/ERC165.sol": {
       "lastModificationDate": 1656817638553,
       "contentHash": "44cef6134c467f198914c6317a250a27",
       "sourceName": "@solidstate/contracts/introspection/ERC165.sol",
@@ -2145,7 +2145,7 @@
         "ERC165"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol": {
       "lastModificationDate": 1656817638531,
       "contentHash": "154e88f27c765a0f38c3facc95f34171",
       "sourceName": "@solidstate/contracts/proxy/diamond/readable/IDiamondReadable.sol",
@@ -2180,7 +2180,7 @@
         "IDiamondReadable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/IERC165.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/introspection/IERC165.sol": {
       "lastModificationDate": 1656817638553,
       "contentHash": "028807e00ea83c0330761ca80ed6fa41",
       "sourceName": "@solidstate/contracts/introspection/IERC165.sol",
@@ -2215,7 +2215,7 @@
         "IERC165"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/introspection/ERC165Storage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/introspection/ERC165Storage.sol": {
       "lastModificationDate": 1656817638552,
       "contentHash": "97fcb867addbcab036e8dad118becc82",
       "sourceName": "@solidstate/contracts/introspection/ERC165Storage.sol",
@@ -2250,7 +2250,7 @@
         "ERC165Storage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol": {
       "lastModificationDate": 1656817638531,
       "contentHash": "63515fd1804e05d853fa0a91a3067d04",
       "sourceName": "@solidstate/contracts/proxy/diamond/readable/DiamondReadable.sol",
@@ -2288,7 +2288,7 @@
         "DiamondReadable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/logic/Governance.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/logic/Governance.sol": {
       "lastModificationDate": 1657080686474,
       "contentHash": "2404f7e72e279c180c42009f16c1328b",
       "sourceName": "contracts/_library/0xpm/governance/logic/Governance.sol",
@@ -2328,7 +2328,7 @@
         "Governance"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Readable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/solidstate/Readable.sol": {
       "lastModificationDate": 1656817611097,
       "contentHash": "ea8d2d7c1c29c7b4fe5678068885964f",
       "sourceName": "contracts/_library/solidstate/Readable.sol",
@@ -2365,7 +2365,7 @@
         "Readable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Erc165.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/solidstate/Erc165.sol": {
       "lastModificationDate": 1656817611098,
       "contentHash": "767af2ff517f6f385f892b7d3fd29587",
       "sourceName": "contracts/_library/solidstate/Erc165.sol",
@@ -2402,7 +2402,7 @@
         "Erc165"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnable.sol": {
       "lastModificationDate": 1656817638541,
       "contentHash": "9279d3a3076b881471deb0a39b707833",
       "sourceName": "@solidstate/contracts/access/ownable/SafeOwnable.sol",
@@ -2442,7 +2442,7 @@
         "SafeOwnable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/Ownable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/Ownable.sol": {
       "lastModificationDate": 1656817638539,
       "contentHash": "41138dea8f4690c1de39e87ad1490c90",
       "sourceName": "@solidstate/contracts/access/ownable/Ownable.sol",
@@ -2482,7 +2482,7 @@
         "Ownable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableInternal.sol": {
       "lastModificationDate": 1656817638538,
       "contentHash": "c08d90ae1de358ac669724c4ddbd8b2b",
       "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableInternal.sol",
@@ -2522,7 +2522,7 @@
         "SafeOwnableInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol": {
       "lastModificationDate": 1656817638540,
       "contentHash": "9f469daf1b811d3962f75816d87d4bbf",
       "sourceName": "@solidstate/contracts/access/ownable/ISafeOwnableInternal.sol",
@@ -2559,7 +2559,7 @@
         "ISafeOwnableInternal"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/@solidstate/contracts/access/ownable/SafeOwnableStorage.sol": {
       "lastModificationDate": 1656817638541,
       "contentHash": "221316dcb76e0068c2e55875a708b400",
       "sourceName": "@solidstate/contracts/access/ownable/SafeOwnableStorage.sol",
@@ -2594,7 +2594,7 @@
         "SafeOwnableStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Ownership.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/solidstate/Ownership.sol": {
       "lastModificationDate": 1656817611097,
       "contentHash": "30a7fce46e83cd853d12ed30b9e39549",
       "sourceName": "contracts/_library/solidstate/Ownership.sol",
@@ -2631,7 +2631,7 @@
         "Ownership"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/logic/DiamondFactory.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/logic/DiamondFactory.sol": {
       "lastModificationDate": 1657775749640,
       "contentHash": "195e5d7686604966ea1c2b96d2664fd2",
       "sourceName": "contracts/logic/DiamondFactory.sol",
@@ -2669,7 +2669,7 @@
         "DiamondFactory"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/solidstate/Writable.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/solidstate/Writable.sol": {
       "lastModificationDate": 1657080929542,
       "contentHash": "b539f32ccbce04bbe3e7a138dc4d142e",
       "sourceName": "contracts/_library/solidstate/Writable.sol",
@@ -2706,7 +2706,7 @@
         "Writable"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/governance/logic/Token.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/governance/logic/Token.sol": {
       "lastModificationDate": 1657080692820,
       "contentHash": "f068f7c1ae24e5a06091acc13cd04cce",
       "sourceName": "contracts/_library/0xpm/governance/logic/Token.sol",
@@ -2739,7 +2739,7 @@
       ],
       "artifacts": []
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/greeter/logic/Greeter.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/greeter/logic/Greeter.sol": {
       "lastModificationDate": 1656817611095,
       "contentHash": "48ca5ba6753ff53833a179a6a38cd890",
       "sourceName": "contracts/_library/0xpm/greeter/logic/Greeter.sol",
@@ -2776,7 +2776,7 @@
         "Greeter"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/0xpm/greeter/storage/GreeterStorage.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/0xpm/greeter/storage/GreeterStorage.sol": {
       "lastModificationDate": 1657080674896,
       "contentHash": "a33109d4098f86dacfc2abd44e8ab734",
       "sourceName": "contracts/_library/0xpm/greeter/storage/GreeterStorage.sol",
@@ -2811,7 +2811,7 @@
         "GreeterStorage"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/decentralizedtech/Multicall2.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/decentralizedtech/Multicall2.sol": {
       "lastModificationDate": 1656817611098,
       "contentHash": "5f4a28895f058ff0696e9709a13bc68b",
       "sourceName": "contracts/_library/decentralizedtech/Multicall2.sol",
@@ -2846,7 +2846,7 @@
         "Multicall2"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/CounterLens.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/CounterLens.sol": {
       "lastModificationDate": 1656817611090,
       "contentHash": "f883eb85971052dbae5a106290619deb",
       "sourceName": "contracts/_library/habitat/CounterLens.sol",
@@ -2881,7 +2881,7 @@
         "CounterLens"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/external/HabitatRepository.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/external/HabitatRepository.sol": {
       "lastModificationDate": 1656817611091,
       "contentHash": "70ae5635fe753919510322c4f9fd9235",
       "sourceName": "contracts/_library/habitat/external/HabitatRepository.sol",
@@ -2918,7 +2918,7 @@
         "HabitatRepository"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IRepository.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IRepository.sol": {
       "lastModificationDate": 1656817611091,
       "contentHash": "b0ada881d8807e8b84e714d1f8633e34",
       "sourceName": "contracts/_library/habitat/interfaces/IRepository.sol",
@@ -2953,7 +2953,7 @@
         "IRepository"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/FacetRepository.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/storage/FacetRepository.sol": {
       "lastModificationDate": 1656817611089,
       "contentHash": "0bd7e1060be8ec2a4dfc194557ff2473",
       "sourceName": "contracts/_library/habitat/storage/FacetRepository.sol",
@@ -2990,7 +2990,7 @@
         "FacetRepository"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/DiamondCutFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/DiamondCutFacet.sol": {
       "lastModificationDate": 1656817611083,
       "contentHash": "c83a1e892b79cd0cf345d33862fec1a9",
       "sourceName": "contracts/_library/habitat/facets/DiamondCutFacet.sol",
@@ -3029,7 +3029,7 @@
         "DiamondCutFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IDiamondCut.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IDiamondCut.sol": {
       "lastModificationDate": 1656817611092,
       "contentHash": "707e073af69d132ebdc36f0b766ed4d2",
       "sourceName": "contracts/_library/habitat/interfaces/IDiamondCut.sol",
@@ -3064,7 +3064,7 @@
         "IDiamondCut"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibDiamond.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/LibDiamond.sol": {
       "lastModificationDate": 1656817611086,
       "contentHash": "9e50cb7737916d8fa479fe02450b9e1e",
       "sourceName": "contracts/_library/habitat/libraries/LibDiamond.sol",
@@ -3101,7 +3101,7 @@
         "LibDiamond"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/upgradeInitializers/DiamondInit.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/upgradeInitializers/DiamondInit.sol": {
       "lastModificationDate": 1656817611086,
       "contentHash": "f10c4be384a3557711b2076f1330a2e6",
       "sourceName": "contracts/_library/habitat/upgradeInitializers/DiamondInit.sol",
@@ -3142,7 +3142,7 @@
         "DiamondInit"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IDiamondLoupe.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IDiamondLoupe.sol": {
       "lastModificationDate": 1656817611092,
       "contentHash": "a471cd6a18e337530aa0fb37a1dd2294",
       "sourceName": "contracts/_library/habitat/interfaces/IDiamondLoupe.sol",
@@ -3177,7 +3177,7 @@
         "IDiamondLoupe"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IERC173.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IERC173.sol": {
       "lastModificationDate": 1656817611094,
       "contentHash": "65e379207bc221335d0eedfe7b077af6",
       "sourceName": "contracts/_library/habitat/interfaces/IERC173.sol",
@@ -3212,7 +3212,7 @@
         "IERC173"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IERC165.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IERC165.sol": {
       "lastModificationDate": 1656817611094,
       "contentHash": "f8f9ee2c76e1678bfead7a3fad131934",
       "sourceName": "contracts/_library/habitat/interfaces/IERC165.sol",
@@ -3247,7 +3247,7 @@
         "IERC165"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/DiamondLoupeFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/DiamondLoupeFacet.sol": {
       "lastModificationDate": 1656817611084,
       "contentHash": "20fbbb16498bb5d7f6b426730cca5463",
       "sourceName": "contracts/_library/habitat/facets/DiamondLoupeFacet.sol",
@@ -3286,7 +3286,7 @@
         "DiamondLoupeFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/OwnershipFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/OwnershipFacet.sol": {
       "lastModificationDate": 1656817611083,
       "contentHash": "3ecfa87738e59d567e6c44c1708b9a7d",
       "sourceName": "contracts/_library/habitat/facets/OwnershipFacet.sol",
@@ -3324,7 +3324,7 @@
         "OwnershipFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/external/StakeContract.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/external/StakeContract.sol": {
       "lastModificationDate": 1656817611090,
       "contentHash": "5109ac8270812e92a7e2911b9a72404b",
       "sourceName": "contracts/_library/habitat/external/StakeContract.sol",
@@ -3364,7 +3364,7 @@
         "StakeContract"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/IERC20.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/openzeppelin/IERC20.sol": {
       "lastModificationDate": 1656817611088,
       "contentHash": "ae3ee83cf946e39c01ae66d440d6e48f",
       "sourceName": "contracts/_library/habitat/libraries/openzeppelin/IERC20.sol",
@@ -3399,7 +3399,7 @@
         "IERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol": {
       "lastModificationDate": 1656817611088,
       "contentHash": "dcb20d7b5f9db35c6768ced3f7b3a577",
       "sourceName": "contracts/_library/habitat/libraries/openzeppelin/SafeERC20.sol",
@@ -3437,7 +3437,7 @@
         "SafeERC20"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/IVotingPower.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/IVotingPower.sol": {
       "lastModificationDate": 1656817611091,
       "contentHash": "1ad4c1496d0a463882f3486d43b35d01",
       "sourceName": "contracts/_library/habitat/interfaces/IVotingPower.sol",
@@ -3472,7 +3472,7 @@
         "IVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/openzeppelin/Address.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/openzeppelin/Address.sol": {
       "lastModificationDate": 1656817611088,
       "contentHash": "f3845818a6b38f565fc84a78259540d3",
       "sourceName": "contracts/_library/habitat/libraries/openzeppelin/Address.sol",
@@ -3507,7 +3507,7 @@
         "Address"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/VotingPowerFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/VotingPowerFacet.sol": {
       "lastModificationDate": 1656817611084,
       "contentHash": "91c51208fc0531b5503ec916142ce4ac",
       "sourceName": "contracts/_library/habitat/facets/VotingPowerFacet.sol",
@@ -3545,7 +3545,7 @@
         "VotingPowerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibVotingPower.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/LibVotingPower.sol": {
       "lastModificationDate": 1656817611086,
       "contentHash": "c59795beb992fe3eccda6c059b93893e",
       "sourceName": "contracts/_library/habitat/libraries/LibVotingPower.sol",
@@ -3583,7 +3583,7 @@
         "LibVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/LibTreasury.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/LibTreasury.sol": {
       "lastModificationDate": 1656817611087,
       "contentHash": "9613d4734d580f294b56b87c3c952119",
       "sourceName": "contracts/_library/habitat/libraries/LibTreasury.sol",
@@ -3621,7 +3621,7 @@
         "LibTreasury"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasury.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasury.sol": {
       "lastModificationDate": 1656817611092,
       "contentHash": "c19d96aa69d0c832cdfadea4b0bd3755",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasury.sol",
@@ -3658,7 +3658,7 @@
         "ITreasury"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol": {
       "lastModificationDate": 1656817611092,
       "contentHash": "4daf83e9527f256b596c336ddd391530",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVotingPower.sol",
@@ -3693,7 +3693,7 @@
         "ITreasuryVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol": {
       "lastModificationDate": 1656817611087,
       "contentHash": "6a26c85f3fe33e7ca7ffc8534c013985",
       "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVoting.sol",
@@ -3731,7 +3731,7 @@
         "LibTreasuryVoting"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol": {
       "lastModificationDate": 1656817611085,
       "contentHash": "bb64a610f0f16fb053a1c16eedb68ebe",
       "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingFacet.sol",
@@ -3773,7 +3773,7 @@
         "TreasuryVotingFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol": {
       "lastModificationDate": 1656817611093,
       "contentHash": "0ed5cd95bc096c2d134a0054e4d7e420",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryVoting.sol",
@@ -3808,7 +3808,7 @@
         "ITreasuryVoting"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol": {
       "lastModificationDate": 1656817611087,
       "contentHash": "0040a62aeb58ccf1717ef1e79e16b37c",
       "sourceName": "contracts/_library/habitat/libraries/treasury/LibTreasuryVotingPower.sol",
@@ -3847,7 +3847,7 @@
         "LibTreasuryVotingPower"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol": {
       "lastModificationDate": 1656817611085,
       "contentHash": "fb4bb530a2c7c76c55f817735358d616",
       "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryVotingPowerFacet.sol",
@@ -3886,7 +3886,7 @@
         "TreasuryVotingPowerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol": {
       "lastModificationDate": 1656817611085,
       "contentHash": "e5a883b5f73bc87a755b2c5aa8ec176d",
       "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryViewerFacet.sol",
@@ -3924,7 +3924,7 @@
         "TreasuryViewerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol": {
       "lastModificationDate": 1656817611085,
       "contentHash": "57ee455f3f9a86d4fce80ac039948492",
       "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryExecutionFacet.sol",
@@ -3963,7 +3963,7 @@
         "TreasuryExecutionFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol": {
       "lastModificationDate": 1656817611093,
       "contentHash": "cbadd7559d9da9f1a9810af977a58a43",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/ITreasuryExecution.sol",
@@ -3998,7 +3998,7 @@
         "ITreasuryExecution"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/LocalFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/LocalFacet.sol": {
       "lastModificationDate": 1656817611084,
       "contentHash": "8d8e5ade24ca7fb6857f573cb012cf54",
       "sourceName": "contracts/_library/habitat/facets/LocalFacet.sol",
@@ -4035,7 +4035,7 @@
         "LocalFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/storage/Counter.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/storage/Counter.sol": {
       "lastModificationDate": 1656817611089,
       "contentHash": "7871cb4fc3bcd3acb41f059c2d2f9f81",
       "sourceName": "contracts/_library/habitat/storage/Counter.sol",
@@ -4070,7 +4070,7 @@
         "Counter"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/LocalFacetTest.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/LocalFacetTest.sol": {
       "lastModificationDate": 1656817611083,
       "contentHash": "e04e0eaf60619da08c0c0e906de069a3",
       "sourceName": "contracts/_library/habitat/facets/LocalFacetTest.sol",
@@ -4107,7 +4107,7 @@
         "LocalFacetTest"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol": {
       "lastModificationDate": 1656817611085,
       "contentHash": "6b5bd64c5a16fd4ae1fa03c82e1e4b2e",
       "sourceName": "contracts/_library/habitat/facets/treasury/TreasuryDefaultCallbackHandlerFacet.sol",
@@ -4146,7 +4146,7 @@
         "TreasuryDefaultCallbackHandlerFacet"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol": {
       "lastModificationDate": 1656817611093,
       "contentHash": "b193999e29685c271f100ff6978bd167",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC1155TokenReceiver.sol",
@@ -4181,7 +4181,7 @@
         "ERC1155TokenReceiver"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol": {
       "lastModificationDate": 1656817611093,
       "contentHash": "3f0817284e32da6458fa3c9c9da3350d",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC721TokenReceiver.sol",
@@ -4216,7 +4216,7 @@
         "ERC721TokenReceiver"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol": {
       "lastModificationDate": 1656817611094,
       "contentHash": "9d253b41c7bc996cec48c70965789ac6",
       "sourceName": "contracts/_library/habitat/interfaces/treasury/tokens/ERC777TokensRecipient.sol",
@@ -4251,7 +4251,7 @@
         "ERC777TokensRecipient"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/contracts/_library/habitat/MyTokenLens.sol": {
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/contracts/_library/habitat/MyTokenLens.sol": {
       "lastModificationDate": 1656817611083,
       "contentHash": "44e84406fce199d7f32d455accbe0d4d",
       "sourceName": "contracts/_library/habitat/MyTokenLens.sol",
@@ -4286,8 +4286,8 @@
         "MyTokenLens"
       ]
     },
-    "/Users/thomasvanslooten/Projects/Atheneum/hardhat/node_modules/hardhat-diamond-abi/dist/contract.sol": {
-      "lastModificationDate": 1657863949510,
+    "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/hardhat-diamond-abi/dist/contract.sol": {
+      "lastModificationDate": 1658343918772,
       "contentHash": "ee43007b1b8cec63c1fc90acfa2a0784",
       "sourceName": "hardhat-diamond-abi/HardhatDiamondABI.sol",
       "solcConfig": {

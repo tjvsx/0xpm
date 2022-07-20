@@ -36,6 +36,12 @@ module.exports = {
         uses account 0 of the hardhat node to deploy
       */
     },
+    rinkeby: {
+      url: `${process.env.RINKEBY_URL}`,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
+      gas: 2100000,
+      gasPrice: 8000000000,
+    },
   },
   settings: {
     optimizer: {
@@ -44,7 +50,7 @@ module.exports = {
     },
   },
   mocha: {
-    timeout: 80000
+    timeout: 10000000
   },
   diamondAbi: {
     name: "XpmDiamond",

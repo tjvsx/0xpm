@@ -11,8 +11,8 @@ const config = {
 		adapter: adapter(),
 		prerender: { default: true },
 		paths: {
-			// change below to your repo name
-			base: process.env.NODE_ENV === 'development' ? '' : '/0xpm'
+			// change below to your repo name										//here
+			base: process.env.NODE_ENV === 'development' ? '' : ''
 		},
 
 		// Override http methods in the Todo forms
@@ -22,7 +22,7 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					'@douganderson444/ipfs-vite-svelte-kit': path.resolve('src/lib')
+					'@': path.resolve('src/lib')
 				}
 			},
 			server: {

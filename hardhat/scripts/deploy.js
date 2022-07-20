@@ -176,7 +176,17 @@ async function deploy() {
     'XpmInit': [xpminit.address]/* ,
     'Multicall': [multicall2.address] */
   };
-  //TODO read file first and copy current deployments
+
+  const buffer = await promises.readFile('../svelte/src/lib/state/map.json')
+  const string = buffer.toString()
+  const json = JSON.parse(string)
+
+  // overwrite at chainid
+  for (const chain of Object.keys(json)) {
+    if (chain != String(CHAIN_ID)) {
+      map[chain] = json[chain]
+    }
+  }
   await promises.writeFile('../svelte/src/lib/state/map.json', JSON.stringify(map, null, 2));
 
   return [ xpm, readable, ownership, writable, erc165, packagemanager, git, diamondfactory, xpminit ]

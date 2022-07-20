@@ -1,31 +1,60 @@
 {
-  "1337": {
+  "4": {
     "Xpm": [
-      "0x90AD39805A54b2ac32239520988C856C84d89115"
+      "0x2e11E0903dB3213b00313C6D3f5A13AfB7048eB2"
     ],
     "Readable": [
-      "0xA0D62133026F725C9C0b16cFbE4e3d8f5006b952"
+      "0xd8F6e55769aCaEb71D871013A661A74AC730416F"
     ],
     "Ownership": [
-      "0xfB4e95fC763b117bff1A769ef5B4187Ec1A9b66e"
+      "0x7e9E3d0F0378E37E09077eB98951A5DA5c67f950"
     ],
     "Erc165": [
-      "0xC076Bdbb4A474Fdb4f5A55CD80538FBb33dd0C03"
+      "0x5fC7bc2c02C5c2706F671783e8D911Ae1d65C0d3"
     ],
     "Writable": [
-      "0x6883eCbEf4F79a61ECF64ccD761bb97C116398E8"
+      "0x0c0C1859356552C28740c16d17100549CD487156"
     ],
     "PackageManager": [
-      "0xfD9a832FcD47053F742e092DE2C6657806666890"
+      "0x583917c907A209D78a7321CB0F75ee4e18CfaEb5"
     ],
     "Git": [
-      "0x908a3187eeE65230E273CEe5b384acC3A3B93E21"
+      "0xf07C3f86E070ea9f3b491ED1f5739BDcfB1cAfaE"
     ],
     "DiamondFactory": [
-      "0x03433cc1B25cA59053AdB659e83fdbfC4096fcBE"
+      "0xd4Ea2e18f043B2361F541554d2cc7c9dC101FFC6"
     ],
     "XpmInit": [
-      "0xEB1F80e7F5162D57aabCF5e7CCD6c8928111227E"
+      "0x92021F9BDA53843134b166f01A2C20a2098bD4Eb"
+    ]
+  },
+  "1337": {
+    "Xpm": [
+      "0xeC7AB49fAaa7CB862091A62121F1FEed06befd04"
+    ],
+    "Readable": [
+      "0x1b547E901321326F674e0Ab8A2d8E70cE63285a0"
+    ],
+    "Ownership": [
+      "0xD979F61A7A633D7e9c2003a1e88bEc801b34D13B"
+    ],
+    "Erc165": [
+      "0xC806BfC843424c3e9b0c8E0092798d873aAfC4ae"
+    ],
+    "Writable": [
+      "0x9B20e8c8eacA71Bc3e6Cb5e8CFD0d4F11346FbC2"
+    ],
+    "PackageManager": [
+      "0x62f8936DfD35Df3fF3c653b7d3994e39b06aB466"
+    ],
+    "Git": [
+      "0xcA196c26D681E4C6F84601609d8bA48BDc7f91ca"
+    ],
+    "DiamondFactory": [
+      "0xb58382B7A246fF3215300E01f0eD0e40BDdE8641"
+    ],
+    "XpmInit": [
+      "0xa65Cb3CB5Af1FD161E07672c43001D940A67fE85"
     ]
   }
 }
