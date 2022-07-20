@@ -33,11 +33,11 @@ const config = {
 			build: {
 				rollupOptions: {
 					plugins: [],
-					output: {
-						minifyInternalExports: false,
-						compact: false,
-						sourcemap: true
-					}
+					// output: {
+					// 	minifyInternalExports: false,
+					// 	compact: false,
+					// 	sourcemap: true
+					// }
 				},
 				minify: false,
 				sourcemap: true,
