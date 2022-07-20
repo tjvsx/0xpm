@@ -1,7 +1,7 @@
 <script>
   import { tabs, margins, remove, navigate } from '$lib/stores/app';
   import { ethers } from 'ethers';
-  import INSTALLER_ABI from '$lib/abis/installer.json';
+  import INSTALLER_ABI from '$lib/abis/Installer.json';
   import { ipfs } from "$lib/stores/ipfs";
   import { getMetadataFromAddress, isAddress, getFunctionsNamesSelectorsFromFacet, getFacetData } from "$lib/actions/utils";
   import Clipboard from "./subcomponents/Clipboard.svelte";

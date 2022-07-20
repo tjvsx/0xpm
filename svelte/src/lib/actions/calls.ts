@@ -6,7 +6,7 @@ import all from 'it-all'
 import { concat as uint8ArrayConcat } from 'uint8arrays/concat'
 import { fromString as uint8ArrayFromString } from 'uint8arrays/from-string'
 import { toString as uint8ArrayToString } from 'uint8arrays/to-string'
-import INSTALLER_ABI from '$lib/abis/installer.json';
+import INSTALLER_ABI from '$lib/abis/Installer.json';
 import NETMAP from '$lib/state/map.json';
 import PM_ABI from '$lib/abis/PackageManager.json';
 import { accountProvider } from '$lib/stores/provider';
