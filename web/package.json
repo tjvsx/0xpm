@@ -45,6 +45,7 @@
 		"google-protobuf": "^3.20.1",
 		"ipfs-client": "^0.8.3",
 		"it-all": "^1.0.6",
+		"process": "^0.11.10",
 		"svelte-notifications": "^0.9.96",
 		"uint8arrays": "^3.0.0",
 		"undici": "*"

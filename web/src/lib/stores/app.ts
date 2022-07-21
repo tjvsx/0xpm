@@ -1,10 +1,11 @@
+//@ts-nocheck
 export const ssr = false;
 import { isAddress } from '$lib/actions/utils';
 import { get, writable, derived } from 'svelte/store';
 import { commits } from './contract'
 
 /* tabs store */
-export const tabs = writable([]);
+export const tabs = writable<any[]>([]);
 
 export const margins = derived(tabs, $tabs => {
   return indent($tabs);

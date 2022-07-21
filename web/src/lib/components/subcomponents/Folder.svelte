@@ -1,4 +1,5 @@
 <script lang="ts">
+	//@ts-nocheck
 	import File from './File.svelte';
 	import { generateTab } from '../../stores/app';
 

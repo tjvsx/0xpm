@@ -1,18 +1,16 @@
+//@ts-nocheck
 export const ssr = false;
 import { get, writable, derived } from 'svelte/store';
-import { parseCommitted, parseRegistered, parsePackages } from '$lib/actions/utils';
+import { parseCommitted, parseRegistered } from '$lib/actions/utils';
 import {
   accountChainId,
   accountProvider,
-  connected,
   walletAddress,
-  networkProviders
 } from '$lib/stores/provider';
 import NETMAP from '$lib/state/map.json';
 import XPM_ABI from '$lib/abis/XpmDiamond.json';
 import { ethers } from 'ethers';
-import { createAddFacetCut, isAddress, getMetadataFromAddress, getFunctionsNamesSelectorsFromFacet, getPackages } from '$lib/actions/utils';
-// import { Contract, ethers } from 'ethers';
+import { createAddFacetCut } from '$lib/actions/utils';
 import type { Contract, Event } from 'ethers';
 
 /* contract */
@@ -43,7 +41,7 @@ export const userDiamonds = derived(
     return populateUser($registers, $walletAddress);
   }
 )
-export function populateUser(registers, walletAddress) {
+export function populateUser(registers: any[], walletAddress: string) {
   const addr = ethers.utils.getAddress(walletAddress);
   // TODO: use OwnershipTransferred events
   return registers.filter(d => d.owner === addr);
@@ -105,22 +103,10 @@ export async function createDiamond() {
     }
   }
   const cuts = createAddFacetCut(contracts);
-
-  try {
-    const signer = provider.getSigner()
-    const tx = await get(contract).connect(signer).createDiamond(cuts, initializer.address, '0xe1c7392a');
-    const receipt = await tx.wait()
-    let evts = receipt.events?.filter((x) => {return x.event == "Registered"});
-    registered.update(r => r.concat(evts))
-    // let diamond, owner;
-    // let registered = []
-    // for (let evt of evts) {
-    //   [diamond, owner] = evt.args
-    //   registered.push({diamond, owner})
-    // }
-    // registers.update(r => r.concat(registered));
-  } catch (error) {
-    // await handleError(error);
-  }
+  const signer = provider.getSigner()
+  const tx = await get(contract).connect(signer).createDiamond(cuts, initializer.address, '0xe1c7392a');
+  const receipt = await tx.wait()
+  let evts = receipt.events?.filter((x) => {return x.event == "Registered"});
+  registered.update(r => r.concat(evts))
 }
 

@@ -1,5 +1,6 @@
 
 <script>
+  //@ts-nocheck
   export let func;
   export let char;
 </script>

@@ -1,7 +1,7 @@
 <script lang="ts">
   //@ts-nocheck
   import { ethers } from 'ethers'
-  import { contract, userDiamonds, createDiamond, selectedUserDiamond } from '$lib/stores/contract';
+  import { userDiamonds, createDiamond, selectedUserDiamond } from '$lib/stores/contract';
   import { isAddress, getFacetData, populateDiamond } from '$lib/actions/utils';
   import { cart, empty, generateTabFromUpgrade } from '$lib/stores/app';
   import { clickOutside, scalable } from '$lib/actions/layout'

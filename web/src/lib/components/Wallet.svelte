@@ -13,10 +13,6 @@ import {
 
 let showModal = false;
 
-
-
-  //TODO: remove ability to interact with UI unless you connect a wallet
-
 </script>
 
 {#if ($connected)}
@@ -27,7 +23,7 @@ let showModal = false;
     {#if !$connected}
       <div class='flex flex-col text-center'>
         <h2 class="text-black font-semibold">Connect a Wallet</h2>
-        <div class='flex flex-row justify-center p-3 gap-3'>
+        <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
           <button
           on:click={connectMetamask}
           class="bg-black text-white"

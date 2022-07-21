@@ -1,20 +1,16 @@
 <script>
-  import { tabs, margins, remove, navigate } from '$lib/stores/app';
+  //@ts-nocheck
+  import { tabs, remove, navigate } from '$lib/stores/app';
   import { ethers } from 'ethers';
   import INSTALLER_ABI from '$lib/abis/Installer.json';
-  import { ipfs } from "$lib/stores/ipfs";
-  import { getMetadataFromAddress, isAddress, getFunctionsNamesSelectorsFromFacet, getFacetData } from "$lib/actions/utils";
+  import { isAddress, getFacetData } from "$lib/actions/utils";
   import Clipboard from "./subcomponents/Clipboard.svelte";
-  import { addPkg, updatePkg } from "$lib/stores/app";
-  import {
-		accountChainId,
-		accountProvider,
-		connected,
-		walletAddress,
-		networkProviders
-	} from '$lib/stores/provider';
+  import { addPkg } from "$lib/stores/app";
 
-  export let tab;
+  export /**
+* @type {{ name: any; owner: any; files: string | any[]; }}
+*/
+   let tab;
 
   async function getUpgrade(address) {
     const provider = new ethers.providers.Web3Provider(globalThis.ethereum);

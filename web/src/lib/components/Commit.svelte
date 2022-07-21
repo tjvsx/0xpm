@@ -9,11 +9,7 @@
     isAddress, 
     createAddFacetCut } from "$lib/actions/utils";
   import {
-		accountChainId,
 		accountProvider,
-		connected,
-		walletAddress,
-		networkProviders
 	} from '$lib/stores/provider';
   import CircleButton from './subcomponents/CircleButton.svelte';
   import { getNotificationsContext } from 'svelte-notifications';
@@ -22,16 +18,13 @@
   let showModal = false;
 
 	let facets = [];
-
 	function add() {
 		facets = facets.concat({ address: '' });
 	}
-
   function remove(facet) {
 		facets.pop(facet);
     facets = facets;
 	}
-
   let upgrade = {
     name: '',
     cuts: [],
@@ -58,6 +51,7 @@
   }
 
   async function submit() {
+    // TODO: disallow removing and disallow conflicting selectors for core contracts in NETMAP
     const provider = new ethers.providers.Web3Provider($accountProvider);
     let contracts = []
     for (let facet of facets) {

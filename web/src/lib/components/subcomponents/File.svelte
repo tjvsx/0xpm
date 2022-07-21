@@ -1,4 +1,5 @@
 <script lang="ts">
+	//@ts-nocheck
 	export let name;
 </script>
 

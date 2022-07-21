@@ -1,3 +1,4 @@
+//@ts-nocheck
 export const ssr = false;
 import { derived, get, writable } from 'svelte/store';
 import { BigNumber, constants, ethers, providers } from 'ethers';
