@@ -26,10 +26,9 @@
   
   let iconCSS = 'bg-no-repeat bg-center bg-cover rounded-full w-8 h-8 cursor-pointer';
   let links = [
-    { icon: `bg-sourcify ${iconCSS}`, url: ''},
-    { icon: `bg-etherscan ${iconCSS}`, url: ''},
-    // { icon: `bg-habitat ${iconCSS}`, url: ''},
-    // { icon: `bg-louper ${iconCSS}`, url: ''},
+    { icon: `bg-sourcify ${iconCSS}`, url: ``},
+    { icon: `bg-etherscan ${iconCSS}`, url: ``},
+    // { icon: `bg-habitat ${iconCSS}`, url: ''}
   ];
 
   async function handleUpgrade() {

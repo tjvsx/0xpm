@@ -11,10 +11,9 @@ const config = {
         'repo': "url(@vscode/codicons/src/icons/repo.svg)",
         'disconnect': "url(@vscode/codicons/src/icons/debug-disconnect.svg)",
         'repo-push': "url(@vscode/codicons/src/icons/repo-push.svg)",
-        'etherscan': "url(static/icons/etherscan.svg)",
-        'sourcify': "url(static/icons/sourcify.svg)",
-        'louper': "url(static/icons/louper.svg)",
-        'habitat': "url(static/icons/habitat.svg)"
+        'etherscan': "url($lib/icons/etherscan.svg)",
+        'sourcify': "url($lib/icons/sourcify.svg)",
+        'habitat': "url($lib/icons/habitat.svg)"
       }),
       colors: {
         primary: "var(--primary)",

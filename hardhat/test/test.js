@@ -67,9 +67,6 @@ describe("Diamond test", async function () {
 
     cuts = createAddFacetCut([greeter]);
     await xpm.connect(signer[0]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x');
-    await xpm.connect(signer[1]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x');
-    await xpm.connect(signer[2]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x');
-    await xpm.connect(signer[3]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x');
 
     const LocalFacet = await ethers.getContractFactory('LocalFacet');
     const localfacet = await LocalFacet.deploy();
@@ -77,23 +74,22 @@ describe("Diamond test", async function () {
 
     cuts = createAddFacetCut([localfacet]);
     await xpm.connect(signer[0]).commit('LocalFacet', cuts, ethers.constants.AddressZero, '0x');
-    await xpm.connect(signer[1]).commit('LocalFacet', cuts, ethers.constants.AddressZero, '0x');
 
     cuts = createAddFacetCut([localfacet, greeter])
-    await xpm.connect(signer[4]).commit('Bundle Test', cuts, ethers.constants.AddressZero, '0x');
+    await xpm.connect(signer[1]).commit('Bundle Test', cuts, ethers.constants.AddressZero, '0x');
 
     const MyToken = await ethers.getContractFactory('MyToken');
     const mytoken = await MyToken.deploy();
     await mytoken.deployed();
     cuts = createAddFacetCut([mytoken]);
-    await xpm.connect(signer[3]).commit('MyToken', cuts, ethers.constants.AddressZero, '0x');
+    await xpm.connect(signer[2]).commit('MyToken', cuts, ethers.constants.AddressZero, '0x');
 
 
     const LocalFacetTest = await ethers.getContractFactory('LocalFacetTest');
     const localfacettest = await LocalFacetTest.deploy();
     await localfacettest.deployed();
     cuts = createAddFacetCut([localfacettest]);
-    await xpm.connect(signer[2]).commit('LocalFacetTest', cuts, ethers.constants.AddressZero, '0x');
+    await xpm.connect(signer[3]).commit('LocalFacetTest', cuts, ethers.constants.AddressZero, '0x');
 
 
     contractsToVerify = [
