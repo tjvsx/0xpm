@@ -20,31 +20,21 @@ let showModal = false;
 {:else}
 <div class="box" use:clickOutside on:outclick={() => (showModal = false)}>
   <div class='sub-box'>
-    {#if !$connected}
-      <div class='flex flex-col text-center'>
-        <h2 class="text-black font-semibold">Connect a Wallet</h2>
-        <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
-          <button
-            on:click={connectMetamask}
-            class="bg-orange-500 text-white"
-          >🦊 MetaMask</button
-          >
-          <button
-            on:click={connectWalletConnect}
-            class="bg-blue-500 text-white"
-          >🤳 WalletConnect</button
-          >
-        </div>
+    <div class='flex flex-col text-center'>
+      <h2 class="text-black font-semibold">Connect a Wallet</h2>
+      <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
+        <button
+          on:click={connectMetamask}
+          class="bg-orange-500 text-white"
+        >🦊 MetaMask</button
+        >
+        <button
+          on:click={connectWalletConnect}
+          class="bg-blue-500 text-white"
+        >🤳 WalletConnect</button
+        >
       </div>
-    {:else}
-      <div class='flex flex-col text-center'>
-        <h2 class="text-black font-semibold">Your Wallet</h2>
-        <div class='flex flex-row justify-center p-3 gap-3'>
-          <div>Network: {$accountChainId.chainId}</div>
-          <div>Address: {$walletAddress}</div>
-        </div>
-      </div>
-    {/if}
+    </div>
   </div>
   <div class='sub-box'>
     <div class='flex flex-col text-center'>
@@ -75,10 +65,10 @@ let showModal = false;
 
 <style>
   .box {
-    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-slate-200 border-2 border-black rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
+    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-80 rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
   }
   .sub-box {
-    @apply flex flex-col justify-center m-5 p-5 bg-slate-100 border-black border-2 rounded-2xl text-center;
+    @apply flex flex-col justify-center m-5 mt-[-1em] ml-[-1em] p-5 bg-slate-100 border-black border-2 rounded-2xl text-center shadow-2xl;
   }
   li {
     @apply list-disc;
