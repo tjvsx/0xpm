@@ -65,7 +65,7 @@ let showModal = false;
 
 <style>
   .box {
-    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-80 rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
+    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-70 rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
   }
   .sub-box {
     @apply flex flex-col justify-center m-5 mt-[-1em] ml-[-1em] p-5 bg-slate-100 border-black border-2 rounded-2xl text-center shadow-2xl;
