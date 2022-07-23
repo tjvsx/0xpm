@@ -30,6 +30,7 @@ let showModal = false;
           class="bg-orange-500 text-white"
         >🦊 MetaMask</button
         >
+        <!-- if no metamask, navigate to metamask.io -->
         <!-- <button
           on:click={connectWalletConnect}
           class="bg-blue-500 text-white"
