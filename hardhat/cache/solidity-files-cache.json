@@ -4287,7 +4287,7 @@
       ]
     },
     "/Users/thomasvanslooten/Projects/0xpm/hardhat/node_modules/hardhat-diamond-abi/dist/contract.sol": {
-      "lastModificationDate": 1658544530478,
+      "lastModificationDate": 1658554434309,
       "contentHash": "ee43007b1b8cec63c1fc90acfa2a0784",
       "sourceName": "hardhat-diamond-abi/HardhatDiamondABI.sol",
       "solcConfig": {

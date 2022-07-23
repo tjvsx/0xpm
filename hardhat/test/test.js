@@ -74,9 +74,6 @@ describe("Diamond test", async function () {
     cuts = createAddFacetCut([mytoken]);
     await xpm.connect(signer[0]).commit('MyToken', cuts, ethers.constants.AddressZero, '0x');
 
-    cuts = createAddFacetCut([mytoken, greeter]);
-    await xpm.connect(signer[0]).commit('Token + Greeter Bundle', cuts, ethers.constants.AddressZero, '0x');
-
 
     const LocalFacetTest = await ethers.getContractFactory('LocalFacetTest');
     const localfacettest = await LocalFacetTest.deploy();
@@ -99,69 +96,69 @@ describe("Diamond test", async function () {
         name: 'Greeter',
         address: greeter.address
       },
-      // {
-      //   name: 'LocalFacet',
-      //   address: localfacet.address
-      // },
+      {
+        name: 'LocalFacet',
+        address: localfacet.address
+      },
       {
         name: 'MyToken',
         address: mytoken.address
       },
-      // {
-      //   name: 'LocalFacetTest',
-      //   address: localfacettest.address
-      // },
+      {
+        name: 'LocalFacetTest',
+        address: localfacettest.address
+      },
     ];
 
     await verify(contractsToVerify)
     
   });
 
-  it("fetch Commit events", async function () {
-    const events = await xpm.queryFilter(
-      xpm.filters.Committed(), 
-      'earliest', 
-      'latest'
-    );
+  // it("fetch Commit events", async function () {
+  //   const events = await xpm.queryFilter(
+  //     xpm.filters.Committed(), 
+  //     'earliest', 
+  //     'latest'
+  //   );
 
-    let repos = []
-    for (const evt of events) {
-      const { owner, name, upgrade } = evt.args
-      repos.push({ owner, name, upgrade})
-    }
-    // console.log(repos);
-  });
+  //   let repos = []
+  //   for (const evt of events) {
+  //     const { owner, name, upgrade } = evt.args
+  //     repos.push({ owner, name, upgrade})
+  //   }
+  //   // console.log(repos);
+  // });
 
-  let x_packagemanager;
-  it("user adds upgrades", async function () {
-    x_packagemanager = await ethers.getContractAt('PackageManager', diamondAddr)
-    // console.log(x_packagemanager)
+  // let x_packagemanager;
+  // it("user adds upgrades", async function () {
+  //   x_packagemanager = await ethers.getContractAt('PackageManager', diamondAddr)
+  //   // console.log(x_packagemanager)
     
-    tx = await x_packagemanager.install(signer[0].address, 'Greeter');
-    receipt = await tx.wait()
-  });
+  //   tx = await x_packagemanager.install(signer[0].address, 'Greeter');
+  //   receipt = await tx.wait()
+  // });
 
-  it("fetch Upgraded events", async function () {
-    const events = await x_packagemanager.queryFilter(
-      x_packagemanager.filters.Upgraded(), 
-      'earliest', 
-      'latest'
-    );
+  // it("fetch Upgraded events", async function () {
+  //   const events = await x_packagemanager.queryFilter(
+  //     x_packagemanager.filters.Upgraded(), 
+  //     'earliest', 
+  //     'latest'
+  //   );
 
-    let upgrades = []
-    for (const evt of events) {
-      const [ account, repo, toPkg, fromPkg, caller ] = evt.args
-      upgrades.push({account, repo, toPkg, fromPkg, caller})
-    }
-    // console.log(upgrades);
-  });
+  //   let upgrades = []
+  //   for (const evt of events) {
+  //     const [ account, repo, toPkg, fromPkg, caller ] = evt.args
+  //     upgrades.push({account, repo, toPkg, fromPkg, caller})
+  //   }
+  //   // console.log(upgrades);
+  // });
 
-  it("Updates packages", async function () {
-    await xpm.connect(signer[0]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x')
-    // console.log(upgrades);
+  // it("Updates packages", async function () {
+  //   await xpm.connect(signer[0]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x')
+  //   // console.log(upgrades);
 
-    // await x_packagemanager.connect(signer[0]).update()
-  });
+  //   // await x_packagemanager.connect(signer[0]).update()
+  // });
 
 
 

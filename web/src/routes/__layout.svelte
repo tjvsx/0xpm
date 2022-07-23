@@ -28,7 +28,7 @@
     @apply font-bold text-base;
   }
 	button {
-		@apply bg-black text-white font-semibold rounded-full py-2 px-4 cursor-pointer;
+		@apply bg-black text-white font-semibold rounded-full py-2 px-4 cursor-pointer shadow-md;
 	}
 	button:hover {
 		@apply opacity-80 ;
