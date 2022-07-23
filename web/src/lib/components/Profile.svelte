@@ -2,13 +2,14 @@
   //@ts-nocheck
   import { ethers } from 'ethers'
   import { userDiamonds, createDiamond, selectedUserDiamond } from '$lib/stores/contract';
-  import { isAddress, getFacetData, populateDiamond } from '$lib/actions/utils';
+  import { isAddress, getFacetData, populateDiamond, getFunctionsNamesSelectorsFromFacet } from '$lib/actions/utils';
   import { cart, empty, generateTabFromUpgrade } from '$lib/stores/app';
   import { clickOutside, scalable } from '$lib/actions/layout'
   import { install, uninstall, update, latest } from '$lib/actions/calls';
   import CircleButton from './subcomponents/CircleButton.svelte'
   import { getNotificationsContext } from 'svelte-notifications';
   import { onMount } from 'svelte';
+import { accountChainId } from '$lib/stores/provider';
   const { addNotification } = getNotificationsContext();
 
   let showModal = false;
@@ -151,6 +152,12 @@
             <div>
               To deploy your new diamond, press "create".
             </div>
+            <br>
+            {#if $accountChainId.chainId === 5}
+              <p>
+                Need currency? Go to a <a href={`https://goerlifaucet.com/`}>faucet</a>.
+              </p>
+            {/if}
         {/if}
       </div>
     </section>
@@ -207,5 +214,8 @@
   }
   button {
     @apply p-2 px-3;
+  }
+  a {
+    @apply underline text-indigo-500;
   }
 </style>

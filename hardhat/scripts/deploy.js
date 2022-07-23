@@ -177,7 +177,7 @@ async function deploy() {
     'Multicall': [multicall2.address] */
   };
 
-  const buffer = await promises.readFile('../svelte/src/lib/state/map.json')
+  const buffer = await promises.readFile('../web/src/lib/state/map.json')
   const string = buffer.toString()
   const json = JSON.parse(string)
 
@@ -187,7 +187,7 @@ async function deploy() {
       map[chain] = json[chain]
     }
   }
-  await promises.writeFile('../svelte/src/lib/state/map.json', JSON.stringify(map, null, 2));
+  await promises.writeFile('../web/src/lib/state/map.json', JSON.stringify(map, null, 2));
 
   return [ xpm, readable, ownership, writable, erc165, packagemanager, git, diamondfactory, xpminit ]
 }

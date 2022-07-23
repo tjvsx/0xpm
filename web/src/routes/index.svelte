@@ -3,12 +3,11 @@
 	import { ethers } from 'ethers';
   import { ipfs } from '$lib/stores/ipfs';
   import { populate } from '$lib/stores/contract';
-	import {move, resizeX} from '$lib/actions/layout';
 	import Menu from "$lib/components/Menu.svelte";
 	import Main from "$lib/components/Main.svelte";
   import Profile from '$lib/components/Profile.svelte';
   import Background from '$lib/components/Background.svelte';
-  import { connected } from '$lib/stores/provider';
+  import { connected, accountChainId } from '$lib/stores/provider';
   import Wallet from '$lib/components/Wallet.svelte';
   import { create } from 'ipfs-client';
   import Notifications from 'svelte-notifications';
@@ -54,6 +53,8 @@
 	let w: number;
 	$: right = width <= 639? `width:100vw;` : `width:calc(100vw - ${w + 20}px);`
 
+  $: $accountChainId, populate();
+
 </script>
 
 <svelte:head>
@@ -62,8 +63,8 @@
 
 
 <Background />
+{#if $connected && $accountChainId.chainId === 5}
 <Notifications>
-  {#if $connected}
     <main bind:offsetWidth={width}>
         <Menu bind:offsetWidth={w}/>
       <section style="{right}">
@@ -73,10 +74,10 @@
       </section>
     </main>
     <Profile />
-  {:else}
-    <Wallet />
-  {/if}
 </Notifications>
+{:else}
+<Wallet />
+{/if}
 
 <style>
 	section { @apply absolute right-0 top-0 bottom-0 h-screen overflow-auto; }

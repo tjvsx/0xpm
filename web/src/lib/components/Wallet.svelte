@@ -8,14 +8,15 @@ import {
   connectWalletConnect,
   disconnect,
   walletAddress,
-  networkProviders
+  networkProviders,
+  switchChains
 } from '$lib/stores/provider';
 
 let showModal = false;
 
 </script>
 
-{#if ($connected)}
+{#if ($connected && $accountChainId.chainId === 5)}
   <div class='menu-link' on:click={disconnect}>Disconnect</div>
 {:else}
 <div class="box" use:clickOutside on:outclick={() => (showModal = false)}>
@@ -23,6 +24,7 @@ let showModal = false;
     <div class='flex flex-col text-center'>
       <h2 class="text-black font-semibold">Connect a Wallet</h2>
       <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
+        {#if !$connected}
         <button
           on:click={connectMetamask}
           class="bg-orange-500 text-white"
@@ -33,17 +35,14 @@ let showModal = false;
           class="bg-blue-500 text-white"
         >🤳 WalletConnect</button
         >
-      </div>
-    </div>
-  </div>
-  <div class='sub-box'>
-    <div class='flex flex-col text-center'>
-      <h2 class="text-black font-semibold">Available on:</h2>
-      <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
-        <ul class='text-left'>
-          <li>Rinkeby</li>
-          <li>More coming soon...</li>
-        </ul>
+        {:else if $accountChainId.chainId != 5}
+        <p>Only available on Goerli Test Network </p>
+        <button
+          on:click={switchChains}
+          class='bg-blue-600'
+          >🎚 Switch Chains</button
+          >
+        {/if}
       </div>
     </div>
   </div>
@@ -65,12 +64,9 @@ let showModal = false;
 
 <style>
   .box {
-    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-70 rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
+    @apply max-w-[35em] min-w-[20em] h-fit fixed top-1/2 left-1/2 transform -translate-x-[44%] -translate-y-[50%] bg-black bg-opacity-70 rounded-2xl z-50 flex flex-col justify-between shadow-2xl;
   }
   .sub-box {
     @apply flex flex-col justify-center m-5 mt-[-1em] ml-[-1em] p-5 bg-slate-100 border-black border-2 rounded-2xl text-center shadow-2xl;
-  }
-  li {
-    @apply list-disc;
   }
 </style>

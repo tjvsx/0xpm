@@ -11,6 +11,7 @@ let utils = {
       case 'ganache': return 1337
       case 'hardhat': return 31337
       case 'rinkeby': return 4
+      case 'goerli': return 5
       default: throw 'Add chainId in utils.js'
     }
   },

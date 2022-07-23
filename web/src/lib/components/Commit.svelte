@@ -103,9 +103,13 @@
           <input placeholder="function selector" bind:value={upgrade.initFunc}/>
         </section>
 
-        <section>
+        <!-- <section>
           <input class='w-72' placeholder="component URL" bind:value={upgrade.uri}/>
-        </section>
+        </section> -->
+        <!-- TODO: COMMIT FROM DIAMOND - add <select> diamond
+          // if diamond is not owned by itself, require msg.sender owns diamond
+          
+        -->
       </div>
     </div>
     <div class='h-14 w-full flex justify-between bg-slate-200 p-2 rounded-b-2xl items-center'>

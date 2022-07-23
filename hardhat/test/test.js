@@ -68,47 +68,49 @@ describe("Diamond test", async function () {
     cuts = createAddFacetCut([greeter]);
     await xpm.connect(signer[0]).commit('Greeter', cuts, ethers.constants.AddressZero, '0x');
 
-    const LocalFacet = await ethers.getContractFactory('LocalFacet');
-    const localfacet = await LocalFacet.deploy();
-    await localfacet.deployed();
-
-    cuts = createAddFacetCut([localfacet]);
-    await xpm.connect(signer[0]).commit('LocalFacet', cuts, ethers.constants.AddressZero, '0x');
-
-    cuts = createAddFacetCut([localfacet, greeter])
-    await xpm.connect(signer[1]).commit('Bundle Test', cuts, ethers.constants.AddressZero, '0x');
-
     const MyToken = await ethers.getContractFactory('MyToken');
     const mytoken = await MyToken.deploy();
     await mytoken.deployed();
     cuts = createAddFacetCut([mytoken]);
-    await xpm.connect(signer[2]).commit('MyToken', cuts, ethers.constants.AddressZero, '0x');
+    await xpm.connect(signer[0]).commit('MyToken', cuts, ethers.constants.AddressZero, '0x');
+
+    cuts = createAddFacetCut([mytoken, greeter]);
+    await xpm.connect(signer[0]).commit('Token + Greeter Bundle', cuts, ethers.constants.AddressZero, '0x');
 
 
     const LocalFacetTest = await ethers.getContractFactory('LocalFacetTest');
     const localfacettest = await LocalFacetTest.deploy();
     await localfacettest.deployed();
     cuts = createAddFacetCut([localfacettest]);
-    await xpm.connect(signer[3]).commit('LocalFacetTest', cuts, ethers.constants.AddressZero, '0x');
+    await xpm.connect(signer[1]).commit('LocalFacetTest', cuts, ethers.constants.AddressZero, '0x');
 
+    const LocalFacet = await ethers.getContractFactory('LocalFacet');
+    const localfacet = await LocalFacet.deploy();
+    await localfacet.deployed();
+
+    cuts = createAddFacetCut([localfacet]);
+    await xpm.connect(signer[1]).commit('LocalFacet', cuts, ethers.constants.AddressZero, '0x');
+
+    cuts = createAddFacetCut([localfacettest, localfacet]);
+    await xpm.connect(signer[1]).commit('LocalFacets Bundle Test', cuts, ethers.constants.AddressZero, '0x');
 
     contractsToVerify = [
       {
         name: 'Greeter',
         address: greeter.address
       },
-      {
-        name: 'LocalFacet',
-        address: localfacet.address
-      },
+      // {
+      //   name: 'LocalFacet',
+      //   address: localfacet.address
+      // },
       {
         name: 'MyToken',
         address: mytoken.address
       },
-      {
-        name: 'LocalFacetTest',
-        address: localfacettest.address
-      },
+      // {
+      //   name: 'LocalFacetTest',
+      //   address: localfacettest.address
+      // },
     ];
 
     await verify(contractsToVerify)

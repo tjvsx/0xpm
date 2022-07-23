@@ -28,7 +28,7 @@ require("./tasks/diamond.js");
 
 module.exports = {
   solidity: "0.8.12",
-  defaultNetwork: "ganache",
+  defaultNetwork: "goerli",
   networks: {
     ganache: {
       url: "http://localhost:7545",
@@ -38,8 +38,14 @@ module.exports = {
     },
     rinkeby: {
       url: `${process.env.RINKEBY_URL}`,
-      accounts: [`0x${process.env.PRIVATE_KEY}`],
-      gas: 2100000,
+      accounts: [`0x${process.env.PRIVATE_KEY}`, `0x${process.env.PRIVATE_KEY_1}`],
+      gas: 21000000,
+      gasPrice: 8000000000,
+    },
+    goerli: {
+      url: `${process.env.GOERLI_URL}`,
+      accounts: [`0x${process.env.PRIVATE_KEY}`, `0x${process.env.PRIVATE_KEY_1}`],
+      gas: 21000000,
       gasPrice: 8000000000,
     },
   },
@@ -67,7 +73,7 @@ module.exports = {
     strict: false, /// TODO: causing error -- sighash "appears twice"
   },
   abiExporter: {
-    path: '../svelte/src/lib/abis',
+    path: '../web/src/lib/abis',
     runOnCompile: true,
     clear: true,
     flat: true,

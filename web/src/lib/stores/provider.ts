@@ -148,3 +148,11 @@ export const disconnect = () => {
     walletAddress.set(constants.AddressZero);
   }
 }
+
+export async function switchChains() {
+  //@ts-ignore
+  await globalThis.ethereum.request({
+    method: 'wallet_switchEthereumChain',
+    params: [{ chainId: ethers.utils.hexValue(5) }]
+  });
+ }
