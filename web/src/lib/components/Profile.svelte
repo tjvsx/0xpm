@@ -9,7 +9,7 @@
   import CircleButton from './subcomponents/CircleButton.svelte'
   import { getNotificationsContext } from 'svelte-notifications';
   import { onMount } from 'svelte';
-import { accountChainId } from '$lib/stores/provider';
+  import { accountChainId } from '$lib/stores/provider';
   const { addNotification } = getNotificationsContext();
 
   let showModal = false;
@@ -18,7 +18,7 @@ import { accountChainId } from '$lib/stores/provider';
     addNotification({
       position: 'bottom-center',
       text: error.data.message? 
-      error.data.message.replace('VM Exception while processing transaction: revert','[TX REVERT]') 
+      error.data.message 
       : error.message,
       type: 'danger',
       removeAfter: 4000,
