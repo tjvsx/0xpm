@@ -17,9 +17,7 @@
   const handleError = (error) => {
     addNotification({
       position: 'bottom-center',
-      text: error.data.message? 
-      error.data.message 
-      : error.message,
+      text: error.reason,
       type: 'danger',
       removeAfter: 4000,
     })
