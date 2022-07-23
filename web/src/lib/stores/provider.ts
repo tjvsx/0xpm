@@ -5,6 +5,7 @@ import { BigNumber, constants, ethers, providers } from 'ethers';
 import WalletConnectProvider from '@walletconnect/ethereum-provider/dist/umd/index.min.js';
 import { browser } from '$app/env';
 import { NETWORKS } from '$lib/config';
+import { isAddress } from '$lib/actions/utils';
 
 export const networkProviders: { [chainId: string]: providers.JsonRpcProvider } = NETWORKS.reduce((networks, network) => {
   return { ...networks, [network.chainId]: new providers.JsonRpcProvider(network.rpcUrl) }
@@ -14,7 +15,7 @@ export const selectedNetworkIndex = writable<number>(0);
 
 export const accountProvider = writable(undefined);
 export const accountChainId = writable({ chainId: NETWORKS[get(selectedNetworkIndex)].chainId, supportedNetwork: true });
-export const connected = derived(accountProvider, ($accountProvider) => $accountProvider ? true : false);
+export const connected = derived([accountProvider], ([$accountProvider]) => $accountProvider ? true : false);
 export const walletAddress = writable(constants.AddressZero);
 
 let disconnectListener, accountsChangedListener, chainChangedListener;

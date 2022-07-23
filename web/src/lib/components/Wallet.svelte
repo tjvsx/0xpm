@@ -19,12 +19,12 @@ let showModal = false;
 {#if ($connected && $accountChainId.chainId === 5)}
   <div class='menu-link' on:click={disconnect}>Disconnect</div>
 {:else}
-<div class="box" use:clickOutside on:outclick={() => (showModal = false)}>
+<div class="box">
   <div class='sub-box'>
     <div class='flex flex-col text-center'>
       <h2 class="text-black font-semibold">Connect a Wallet</h2>
+      {#if !$connected}
       <div class='flex flex-row flex-wrap justify-center p-3 gap-3'>
-        {#if !$connected}
         <button
           on:click={connectMetamask}
           class="bg-orange-500 text-white"
@@ -35,15 +35,17 @@ let showModal = false;
           class="bg-blue-500 text-white"
         >🤳 WalletConnect</button
         >
-        {:else if $accountChainId.chainId != 5}
+      </div>
+      {:else if !$accountChainId.supportedNetwork}
+        <div class='flex flex-col justify-center p-3 gap-3'>
         <p>Only available on Goerli Test Network </p>
         <button
           on:click={switchChains}
           class='bg-blue-600'
           >🎚 Switch Chains</button
           >
-        {/if}
-      </div>
+        </div>
+      {/if}
     </div>
   </div>
   <div class='sub-box'>
