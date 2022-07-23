@@ -26,14 +26,13 @@
       <div class='text-white font-extrabold' on:click={() => {remove(tab)}}>&#10005;</div>
       <div class='truncate' on:click={() => {navigate(tab)}}>{tab.name} ~ {tab.owner}</div>
     </div>
-    <div class='h-[1px] mt-[-1px] w-full bg-white absolute border-l-2 border-black'></div>
   </div>
   <div id="window" class:selected="{$tabs.at(-1) === tab}">
     <div class='mb-36'>
       {#if isAddress(tab.files.at(-1))}
       <section>
-        <div class='flex justify-between flex-wrap'>
-          <h1>{tab.name}</h1>
+        <div class='flex justify-between flex-nowrap truncate'>
+          <h1 class='truncate'>{tab.name}</h1>
           <button on:click={()=>addPkg(tab)}> &#43; Add </button>
         </div>
         <div class='flex flex-col gap-2'>
@@ -94,13 +93,13 @@
     @apply h-full w-full;
   }
   #window {
-    @apply relative h-full border-l-black border-l-2 min-h-screen overflow-y-scroll hidden bg-white bg-opacity-80;
+    @apply relative h-full min-h-screen overflow-y-scroll hidden bg-white bg-opacity-80;
   }
   .selected {
     /* @apply block; */
     display:block !important;
   }
   .bar {
-    @apply rounded-tl-2xl text-lg bg-black flex gap-3 items-center text-white overflow-x-hidden whitespace-nowrap cursor-pointer pl-3 p-2 w-full h-full;
+    @apply rounded-tl-2xl text-lg bg-black flex gap-3 items-center text-white overflow-x-hidden whitespace-nowrap cursor-pointer pl-3 p-2 w-full h-full border-black border-b-white border-b-[1px] border-opacity-90;
   }
 </style>

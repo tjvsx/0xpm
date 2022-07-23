@@ -5,11 +5,11 @@
 </script>
 
   {#if $tabs.length}
-  <div style:margin-left="{$margins.at(-1)}em">
+  <div style:margin-left="{$margins.at(-1)}rem">
     {#each $tabs as tab}
     <div 
       class='flex' 
-      style:margin-left="-{$margins[$tabs.indexOf(tab)]}em"
+      style:margin-left="-{$margins[$tabs.indexOf(tab)]}rem"
     > 
       <Panel {tab}/>
     </div>

@@ -51,7 +51,7 @@
 
   let width: number;
 	let w: number;
-	$: right = width <= 639? `width:100vw;` : `width:calc(100vw - ${w + 20}px);`
+	$: right = width <= 639? `width:100vw;` : `width:calc(100vw - ${(w * 1.04) + 10}px);`
 
   $: $accountChainId, populate();
 
