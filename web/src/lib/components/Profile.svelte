@@ -155,7 +155,7 @@ import { accountChainId } from '$lib/stores/provider';
             <br>
             {#if $accountChainId.chainId === 5}
               <p>
-                Need currency? Go to a <a href={`https://goerlifaucet.com/`}>faucet</a>, or <a href="https://twitter.com/tjvsx">ask me to send you some</a>.
+                Need currency? Go to a <a href={`https://goerlifaucet.com/`} target="_blank">faucet</a>, or <a href="https://twitter.com/tjvsx" target="_blank">ask me to send you some</a>.
               </p>
             {/if}
         {/if}
