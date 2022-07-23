@@ -63,7 +63,7 @@
 
 
 <Background />
-{#if $connected && $accountChainId.chainId === 5}
+{#if $connected && $accountChainId.supportedNetwork}
 <Notifications>
     <main bind:offsetWidth={width}>
         <Menu bind:offsetWidth={w}/>

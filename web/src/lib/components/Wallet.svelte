@@ -30,11 +30,11 @@ let showModal = false;
           class="bg-orange-500 text-white"
         >🦊 MetaMask</button
         >
-        <button
+        <!-- <button
           on:click={connectWalletConnect}
           class="bg-blue-500 text-white"
         >🤳 WalletConnect</button
-        >
+        > -->
       </div>
       {:else if !$accountChainId.supportedNetwork}
         <div class='flex flex-col justify-center p-3 gap-3'>

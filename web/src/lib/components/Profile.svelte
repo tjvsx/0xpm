@@ -115,8 +115,8 @@ import { accountChainId } from '$lib/stores/provider';
             <h2>Packages: </h2>
             <div class='flex flex-col flex-wrap'>
               {#each upgrades as upgrade}
-                <div class='flex flex-row flex-nowrap gap-5 m-2 p-1 justify-evenly items-center bg-slate-200 rounded-2xl max-w-xs'>
-                  <div class='flex flex-col p-1 truncate font-bold cursor-pointer' on:click={generateTabFromUpgrade(upgrade)}>
+                <div class='flex flex-row flex-nowrap gap-5 m-2 p-1 justify-evenly items-center bg-slate-200 rounded-2xl w-fit'>
+                  <div class='flex flex-col p-1 truncate font-bold cursor-pointer w-28' on:click={generateTabFromUpgrade(upgrade)}>
                     <div>{upgrade.repo} by</div>
                     <div class='truncate'>{upgrade.account}</div>
                   </div>
@@ -136,7 +136,7 @@ import { accountChainId } from '$lib/stores/provider';
             <div>
               <h2>Facets: </h2>
               {#each facets as facet}
-              <div class='bg-slate-200 m-2 p-2 rounded-2xl'>
+              <div class='bg-slate-200 m-2 p-2 rounded-2xl overflow-x-scroll'>
                 {#await getFacetData(facet) then {name, funcs, abi, natspec}}
                   <h3>{name}</h3>
                   {#each funcs as func} 

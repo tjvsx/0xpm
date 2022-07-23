@@ -126,15 +126,15 @@ export const connectWalletConnect = () => new Promise(async (resolve, reject) =>
 
 // Disconnect And Store connection between reloads
 
-if (browser && JSON.parse(sessionStorage.getItem('connected'))) {
-  if (sessionStorage.getItem('connectType') === 'metamask') {
-    if (globalThis.ethereum.selectedAddress) connectMetamask();
-  }
-  if (sessionStorage.getItem('connectType') === 'walletconnect') {
-    const providerInstance = new WalletConnectProvider({ rpc: NETWORKS.reduce((networks, network) => ({ ...networks, [network.chainId]: network.rpcUrl }), {}) });
-    if (providerInstance.connected) connectWalletConnect();
-  }
-}
+// if (browser && JSON.parse(sessionStorage.getItem('connected'))) {
+//   if (sessionStorage.getItem('connectType') === 'metamask') {
+//     if (globalThis.ethereum.selectedAddress) connectMetamask();
+//   }
+//   if (sessionStorage.getItem('connectType') === 'walletconnect') {
+//     const providerInstance = new WalletConnectProvider({ rpc: NETWORKS.reduce((networks, network) => ({ ...networks, [network.chainId]: network.rpcUrl }), {}) });
+//     if (providerInstance.connected) connectWalletConnect();
+//   }
+// }
 
 connected.subscribe((value) => {
   if (browser) sessionStorage.setItem('connected', JSON.stringify(value));
@@ -151,6 +151,7 @@ export const disconnect = () => {
 }
 
 export async function switchChains() {
+  console.log(globalThis)
   //@ts-ignore
   await globalThis.ethereum.request({
     method: 'wallet_switchEthereumChain',

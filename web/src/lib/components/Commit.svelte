@@ -79,7 +79,7 @@
     <div class='relative w-full h-full overflow-y-scroll'>
       <div class='absolute w-full h-full'>
         <section>
-          <input class='h-10 w-72' placeholder="repository name" bind:value={upgrade.name}/>
+          <input class='h-10 w-64' placeholder="repository name" bind:value={upgrade.name}/>
         </section>
         <section>
           <span>Facets:</span>
