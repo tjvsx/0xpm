@@ -84,7 +84,6 @@
   </div>
 </main>
   
-  
 <style>
   section {
     @apply m-3;

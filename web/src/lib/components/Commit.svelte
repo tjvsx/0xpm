@@ -73,7 +73,7 @@
 
 {#if showModal}
 	<div class="box sm-max:h-[95%] sm-min:h-[70%] sm-max:w-[92%] sm-min:w-[35rem]" use:clickOutside on:outclick={() => (showModal = false)}>
-    <div class='absolute right-[-0.7em] top-[-0.7em] z-50'>
+    <div class='absolute right-[-0.75em] top-[-0.75em] z-50'>
       <CircleButton func={() => {showModal = false}} char='&#10005;' />
     </div>
     <div class='relative w-full h-full overflow-y-scroll'>

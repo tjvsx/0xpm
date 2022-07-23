@@ -50,8 +50,8 @@
   // })
 
   let width: number;
-	let w: number;
-	$: right = width <= 639? `width:100vw;` : `width:calc(100vw - ${(w * 1.04) + 10}px);`
+	let left: number;
+	$: right = width <= 639? `width:100vw;` : `width:calc(100vw - ${left}px);`
 
   $: $accountChainId, populate();
 
@@ -66,7 +66,7 @@
 {#if $connected && $accountChainId.supportedNetwork}
 <Notifications>
     <main bind:offsetWidth={width}>
-        <Menu bind:offsetWidth={w}/>
+        <Menu bind:offsetWidth={left}/>
       <section style="{right}">
         <div class='mt-4'>
           <Main/>

@@ -16,7 +16,7 @@
     {/each}
   </div>
   {:else}
-    <div class='mb-36 mt-[-1em]'>
+    <div class='mb-36'>
       <div class='p-5'>
         <h1>🏛 0xpm</h1>
         <br />
