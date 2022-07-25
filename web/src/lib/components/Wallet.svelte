@@ -53,7 +53,7 @@
         <a href={'https://gitcoin.co/grants/6967/0xpm-registry-for-smart-contract-packages-dapp-com'} target="_blank"><button
           class='bg-teal-500 text-white'
         >🤝 Donate</button></a>
-        <a href={'https://github.com/0xHabitat'} target="_blank"><button
+        <a href={'https://github.com/tjvsx/0xpm'} target="_blank"><button
           class='bg-black-500 text-white'
         >🛠 GitHub</button></a>
       </div>
