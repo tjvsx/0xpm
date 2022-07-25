@@ -45,7 +45,7 @@
         <p>Anyone can commit an upgrade! Simply click the "Commit an upgrade" button below the left-side menu. First, name your upgrade. Now select "add" under facets. <em> Using a facet whose metadata does not exist on IPFS will not work,</em> so feel free to reuse an existing facet in the library - you can do this by going to another upgrade and clicking a facet address to copy it. Paste the facet in the "facet address" input. Do not worry about the initializers for this example. Then, press "submit". Soon, you will see the upgrade commited in the menu under your wallet address.</p>
 
         <h4>6. Update a package</h4>
-        <p>An upgrade for a package becomes available in your "cart" when the package owner commits a new version. In order to exemplify this, you may install one of your <em>own</em> packages on your diamond. After you'ved installed it, commit a new version by submitting a new commit at the same repo name as before. Now, your cart should display a green "Update" button. Selecting it will display the new upgrade. You may now finalize the transaction by pressing the "Upgrade" button in your cart.</p>
+        <p>An update for a package becomes available in your "cart" when the package owner commits a new version. In order to exemplify this, you may install one of your <em>own</em> packages on your diamond. After you'ved installed it, commit a new version by submitting a new commit at the same repo name as before. Now, your cart should display a green "Update" button. Selecting it will display the new package to be updated. You may now finalize the transaction by pressing the "Upgrade" button in your cart.</p>
       </div>
     </div>
   {/if}
