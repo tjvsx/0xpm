@@ -26,7 +26,7 @@
 <!-- TODO: class:hide-menu={!showMenu} // or use action??? use:showmenu-->
 {#if showMenu}
 <section use:move use:resizeX bind:offsetWidth
-  class='sm-min:max-w-[30rem] sm-min:min-w-[15rem] sm-max:w-full sm-min:w-64 relative h-screen select-none'
+  class='sm-min:max-w-[32rem] sm-min:min-w-[16rem] sm-max:w-full sm-min:w-64 relative h-screen select-none'
 >
 {#if innerWidth < 640}
 <div class='absolute right-1 top-1 z-40'>

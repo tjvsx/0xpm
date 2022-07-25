@@ -1,18 +1,15 @@
 <script>
-  import { clickOutside } from '$lib/actions/layout'
-import {
-  accountChainId,
-  accountProvider,
-  connected,
-  connectMetamask,
-  connectWalletConnect,
-  disconnect,
-  walletAddress,
-  networkProviders,
-  switchChains
-} from '$lib/stores/provider';
-
-let showModal = false;
+  import {
+    accountChainId,
+    accountProvider,
+    connected,
+    connectMetamask,
+    connectWalletConnect,
+    disconnect,
+    walletAddress,
+    networkProviders,
+    switchChains
+  } from '$lib/stores/provider';
 
 </script>
 

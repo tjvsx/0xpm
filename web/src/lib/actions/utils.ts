@@ -1,4 +1,4 @@
-
+//@ts-nocheck
 import { Contract, ethers } from 'ethers';
 import { decode } from 'cbor-x';
 import bs58 from 'bs58';
@@ -6,16 +6,11 @@ import all from 'it-all'
 import { concat as uint8ArrayConcat } from 'uint8arrays/concat'
 import { fromString as uint8ArrayFromString } from 'uint8arrays/from-string'
 import { toString as uint8ArrayToString } from 'uint8arrays/to-string'
-import INSTALLER_ABI from '$lib/abis/Installer.json';
-import NETMAP from '$lib/state/map.json';
 import PM_ABI from '$lib/abis/PackageManager.json';
-import GIT_ABI from '$lib/abis/Git.json';
 import READABLE_ABI from '$lib/abis/Readable.json';
 import UPGRADE_ABI from '$lib/abis/Upgrade.json';
 import { ipfs } from "$lib/stores/ipfs";
 import { get } from 'svelte/store'
-import XPM_ABI from '$lib/abis/XpmDiamond.json';
-import { accountChainId } from '$lib/stores/provider';
 
 export async function getMetadataFromAddress(address) {
   const provider = new ethers.providers.Web3Provider(globalThis.ethereum);
