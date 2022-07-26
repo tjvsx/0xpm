@@ -25,8 +25,6 @@ cd svelte && pnpm i && pnpm run dev
 ---
 # OnTap Contracts - A Diamond for Storing Upgrade Presets
 
-![Ownable](https://user-images.githubusercontent.com/62122206/181121026-cdc21bc3-a6e4-44c6-a336-78e9e3b7c237.png)
-
 >This is a simple WIP / concept project and there are no immediate plans other than testing, simplifying, and optimizing the contracts further. OnTap is the diamond name we will use for this example. This readme is more digestible if you have some familiarity with EIP2535 and the [Solidstate contract library](https://github.com/solidstate-network/solidstate-solidity).
 
 ## The Upgrade contract -- storing a package -- 
