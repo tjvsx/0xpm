@@ -13,7 +13,7 @@
 
 </script>
 
-{#if ($connected && $accountChainId.chainId === 5)}
+{#if ($connected && $accountChainId.supportedNetwork)}
   <div class='menu-link' on:click={disconnect}>Disconnect</div>
 {:else}
 <div class="box">

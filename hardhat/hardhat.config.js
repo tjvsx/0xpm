@@ -28,7 +28,7 @@ require("./tasks/diamond.js");
 
 module.exports = {
   solidity: "0.8.12",
-  defaultNetwork: "goerli",
+  defaultNetwork: "ganache",
   networks: {
     ganache: {
       url: "http://localhost:7545",

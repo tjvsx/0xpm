@@ -28,10 +28,10 @@ export const NETWORKS: Network[] = [
     rpcUrl: `https://eth-goerli.g.alchemy.com/v2/Ezuf6QHN47rQi4nlsump5x9UzF3OfYon`,
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   },
-  // {
-  //   chainId: 1337,
-  //   title: 'Ganache',
-  //   rpcUrl: 'http://localhost:8545',
-  //   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
-  // }
+  {
+    chainId: 1337,
+    title: 'Ganache',
+    rpcUrl: 'http://localhost:8545',
+    nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
+  }
 ]
