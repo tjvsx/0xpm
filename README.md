@@ -25,7 +25,7 @@ cd web && pnpm i && pnpm run dev
 ```
 
 ---
-# OnTap Contracts - A Diamond for Storing Upgrade Presets
+# [Legacy] OnTap Contracts - A Diamond for Storing Upgrade Presets
 
 >This is a simple WIP / concept project and there are no immediate plans other than testing, simplifying, and optimizing the contracts further. OnTap is the diamond name we will use for this example. This readme is more digestible if you have some familiarity with EIP2535 and the [Solidstate contract library](https://github.com/solidstate-network/solidstate-solidity).
 
