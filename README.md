@@ -21,7 +21,7 @@ cd hardhat && yarn && npx hardhat test
 
 4. start front-end: 
 ```
-cd svelte && pnpm i && pnpm run dev
+cd web && pnpm i && pnpm run dev
 ```
 
 ---
