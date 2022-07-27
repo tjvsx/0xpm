@@ -5,6 +5,8 @@ This is an app whose purpose is to be an onchain upgrade library for diamond pro
 
 > WIP: This project is continuously being worked on! That's the beauty of upgradeability :)
 
+### DEMO: https://odysee.com/@tjvs:9/0xpm-demo:a
+
 ## Run the app:
 1. start ganache: use the [GUI](https://trufflesuite.com/ganache/) and start a workspace with the following "server" settings...
 <img width="572" alt="Screen Shot 2022-07-08 at 2 41 59 AM" src="https://user-images.githubusercontent.com/62122206/177932588-000bf8ab-f9d0-4a7a-b886-57b856d63123.png">
